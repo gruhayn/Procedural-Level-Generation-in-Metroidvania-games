@@ -1,14 +1,13 @@
-from find_all_paths import find_all_paths
 from mapGen import *
 
 seed_in = 1
-minimum_winning_path_count_in = 3
-room_count_in = 6
-skill_count_in = 3
-sliding_count_in = 5
-neighbor_distance_in = 2
+minimum_winning_path_count_in = 2
+room_count_in = 10
+skill_count_in = 4
+sliding_count_in = 2
+neighbor_distance_in = 3
 backward_step_count_in = 2
-required_skills_to_win_in = [0,1,2,3] #[skill_count_in, skill_count_in-1]
+required_skills_to_win_in = [0,1,2,3,4] #[skill_count_in, skill_count_in-1]
 
 graph = generate_map(
     seed_in,

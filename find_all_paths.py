@@ -1,4 +1,4 @@
-from mapGen import NONE_SKILL
+from default_values import NONE_SKILL
 import math
 
 def is_entry_exist_in_history(history, from_node_name, to_node_name, gained_skills):

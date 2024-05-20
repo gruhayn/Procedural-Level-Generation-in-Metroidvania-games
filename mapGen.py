@@ -3,9 +3,8 @@ import json
 
 import networkx as nx
 
-NONE_SKILL = 0
-STARTING_SKILL_VALUE = 1
-STARTING_NODE_VALUE = 1
+from default_values import STARTING_NODE_VALUE, STARTING_SKILL_VALUE, NONE_SKILL
+from find_all_paths import find_all_paths
 
 
 def shuffled_array(arr):
@@ -90,6 +89,13 @@ class Graph(object):
 
         print("Graph created. node count " + str(node_count) + " skill count " + str(skill_count))
         self.print_graph_nodes()
+
+    def get_road_count(self):
+        count = 0
+        for from_node_name in self.connections.keys():
+            for to_node_name in self.connections[from_node_name].keys():
+                count = count + len(self.connections[from_node_name][to_node_name])
+        return count
 
     def get_node_count(self):
         return len(self.intermediate_nodes) + 2 # 2 = one for start and one for end node
@@ -325,6 +331,52 @@ def adjust_graph_based_on_required_skill_to_win(graph, required_skills_to_win):
 
     return graph
 
+def vizualize_graph(graph, output_filename):
+    data = graph.connections
+
+    # Create a directed multigraph
+    G = nx.MultiDiGraph()
+
+    # Iterate through the dictionary to add edges
+    for parent, children in data.items():
+        for child, edges in children.items():
+            for edge in edges:
+                parent_node = graph.get_node_by_name(parent)
+                child_node = graph.get_node_by_name(child)
+
+                parent_name = parent + parent_node.get_skills_joined()
+                child_name = child + child_node.get_skills_joined()
+
+                G.add_edge(parent_name, child_name, weight=edge)
+
+    # Convert to a Graphviz graph
+    A = nx.nx_agraph.to_agraph(G)
+
+    # Set graph attributes
+    A.graph_attr['label'] = "Map Visualization\n"+"Node Count: " + str(graph.get_node_count()) \
+                            + "\nSkills: " + str(graph.skills) \
+                            + "\nRoad Count: " + str(graph.get_road_count()) \
+                            + "\nWinning Path Count: " + str(len(find_all_paths(graph)))
+
+    A.node_attr['style'] = 'rounded'
+    A.node_attr['fillcolor'] = 'lightblue'
+    A.graph_attr['size'] = "100,100!"
+    A.graph_attr['nodesep'] = 0.5  # Increase the space between nodes
+    A.graph_attr['ranksep'] = 1  # Increase the space between ranks
+
+    # Set edge labels
+    for edge in A.edges():
+        edge_weight = edge.attr['weight']
+        if edge_weight != NONE_SKILL:
+            edge.attr['label'] = f"{edge_weight}"
+        else:
+            del edge.attr['label']
+
+    # Render the graph
+    output_file = output_filename + ".png"
+    A.draw(output_file, prog='dot', format='png')
+    print(output_file + " file created")
+
 
 def generate_map(seed, minimum_winning_path_count, room_count, skill_count, sliding_count, neighbor_distance,
                  backward_step_count, required_skill_to_win):
@@ -373,44 +425,3 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
     return graph
 
 
-def vizualize_graph(graph, output_filename):
-    data = graph.connections
-
-    # Create a directed multigraph
-    G = nx.MultiDiGraph()
-
-    # Iterate through the dictionary to add edges
-    for parent, children in data.items():
-        for child, edges in children.items():
-            for edge in edges:
-                parent_node = graph.get_node_by_name(parent)
-                child_node = graph.get_node_by_name(child)
-
-                parent_name = parent + parent_node.get_skills_joined()
-                child_name = child + child_node.get_skills_joined()
-
-                G.add_edge(parent_name, child_name, weight=edge)
-
-    # Convert to a Graphviz graph
-    A = nx.nx_agraph.to_agraph(G)
-
-    # Set graph attributes
-    A.graph_attr['label'] = "Map Visualization"
-    A.node_attr['style'] = 'rounded'
-    A.node_attr['fillcolor'] = 'lightblue'
-    A.graph_attr['size'] = "100,100!"
-    A.graph_attr['nodesep'] = 0.5  # Increase the space between nodes
-    A.graph_attr['ranksep'] = 1  # Increase the space between ranks
-
-    # Set edge labels
-    for edge in A.edges():
-        edge_weight = edge.attr['weight']
-        if edge_weight != NONE_SKILL:
-            edge.attr['label'] = f"{edge_weight}"
-        else:
-            del edge.attr['label']
-
-    # Render the graph
-    output_file = output_filename + ".png"
-    A.draw(output_file, prog='dot', format='png')
-    print(output_file + " file created")
