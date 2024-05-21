@@ -331,7 +331,18 @@ def adjust_graph_based_on_required_skill_to_win(graph, required_skills_to_win):
 
     return graph
 
-def vizualize_graph(graph, output_filename):
+def print_dict_human_readable(d):
+    human_readable_dict = ""
+    for key, value in d.items():
+        if value is None:
+            human_readable_dict = human_readable_dict  + "\n" + f"{key}: not set"
+        elif isinstance(value, list):
+            human_readable_dict = human_readable_dict + "\n"+ f"{key}: {', '.join(map(str, value))}"
+        else:
+            human_readable_dict = human_readable_dict + "\n"+ f"{key}: {value}"
+    return human_readable_dict
+
+def vizualize_graph(graph, output_filename, input_params):
     data = graph.connections
 
     # Create a directed multigraph
@@ -356,11 +367,14 @@ def vizualize_graph(graph, output_filename):
     A.graph_attr['label'] = "Map Visualization\n"+"Node Count: " + str(graph.get_node_count()) \
                             + "\nSkills: " + str(graph.skills) \
                             + "\nRoad Count: " + str(graph.get_road_count()) \
-                            + "\nWinning Path Count: " + str(len(find_all_paths(graph)))
+                            + "\nWinning Path Count: " + str(len(find_all_paths(graph))) \
+                            + "\nInput parameters: " + print_dict_human_readable(input_params)
+
+    #A.graph_attr['label'] = "Map Visualization"
 
     A.node_attr['style'] = 'rounded'
     A.node_attr['fillcolor'] = 'lightblue'
-    A.graph_attr['size'] = "100,100!"
+    A.graph_attr['size'] = "10,10!"
     A.graph_attr['nodesep'] = 0.5  # Increase the space between nodes
     A.graph_attr['ranksep'] = 1  # Increase the space between ranks
 
@@ -372,14 +386,25 @@ def vizualize_graph(graph, output_filename):
         else:
             del edge.attr['label']
 
-    # Render the graph
-    output_file = output_filename + ".png"
+    postfix = ""
+
+    for key, value in input_params.items():
+        if value is None:
+            postfix = postfix  + "_"
+        elif isinstance(value, list):
+            postfix = postfix + "_"+ f"{', '.join(map(str, value))}"
+        else:
+            postfix = postfix + "_"+ f"{value}"
+
+
+        # Render the graph
+    output_file = output_filename + postfix + ".png"
     A.draw(output_file, prog='dot', format='png')
     print(output_file + " file created")
 
 
 def generate_map(seed, minimum_winning_path_count, room_count, skill_count, sliding_count, neighbor_distance,
-                 backward_step_count, required_skill_to_win):
+                 backward_step_count, required_skill_to_win, input_params):
     random.seed(seed)
     graph = Graph(room_count, skill_count)
 
@@ -397,7 +422,7 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
 
     graph.print_connections()
     graph.print_graph_nodes()
-    vizualize_graph(graph, "1. winning_paths")
+    vizualize_graph(graph, "1. winning_paths", input_params)
 
     print("##########################################################")
 
@@ -408,7 +433,7 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
 
     graph.print_connections()
     graph.print_graph_nodes()
-    vizualize_graph(graph, "2. gained skills")
+    vizualize_graph(graph, "2. gained skills", input_params)
 
     print("##########################################################")
 
@@ -418,7 +443,7 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
 
     graph.print_connections()
     graph.print_graph_nodes()
-    vizualize_graph(graph, "3. required_skills_to_win")
+    vizualize_graph(graph, "3. required_skills_to_win", input_params)
 
     print("##########################################################")
 

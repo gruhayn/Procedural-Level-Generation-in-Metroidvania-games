@@ -1,13 +1,27 @@
 from mapGen import *
 
-seed_in = 1
-minimum_winning_path_count_in = 2
-room_count_in = 10
-skill_count_in = 4
-sliding_count_in = 2
-neighbor_distance_in = 3
-backward_step_count_in = 2
-required_skills_to_win_in = [0,1,2,3,4] #[skill_count_in, skill_count_in-1]
+seed_in = 768234
+minimum_winning_path_count_in = 3
+room_count_in = 5
+skill_count_in = 3
+sliding_count_in = 1
+neighbor_distance_in = 1
+backward_step_count_in = 1
+required_skills_to_win_in = [1,2, 3] #[skill_count_in, skill_count_in-1]
+
+
+input_params = {
+    "Seed": seed_in,
+    "Minimum Winning Path Count" : minimum_winning_path_count_in,
+    "Room Count" : room_count_in,
+    "Skill Count": skill_count_in,
+    "Sliding Count": sliding_count_in,
+    "Neighbor Distance": neighbor_distance_in,
+    "Backward Step Count": backward_step_count_in,
+    "Required Skills to Win": required_skills_to_win_in
+}
+
+
 
 graph = generate_map(
     seed_in,
@@ -17,9 +31,10 @@ graph = generate_map(
     sliding_count_in,
     neighbor_distance_in,
     backward_step_count_in,
-    required_skills_to_win_in)
+    required_skills_to_win_in, input_params)
 
-vizualize_graph(graph, "4. end")
+
+vizualize_graph(graph, "4. end", input_params)
 graph.print_graph_nodes()
 graph.print_connections()
 graph.print_nodes_and_skills_that_can_be_obtain_in_them()
