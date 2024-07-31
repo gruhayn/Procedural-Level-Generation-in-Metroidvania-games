@@ -5,6 +5,7 @@ import networkx as nx
 
 from default_values import STARTING_NODE_VALUE, STARTING_SKILL_VALUE, NONE_SKILL
 from find_all_paths import find_all_paths
+from print_winning_pathss_as_image_example import create_winning_path_image
 
 
 def shuffled_array(arr):
@@ -54,6 +55,16 @@ class Node(object):
 
         return skill_str
 
+    def get_gained_skills_joined(self, exclude_list = [NONE_SKILL]):
+        skill_str = "\n"
+
+        for skill in self.gained_skills:
+            if skill not in exclude_list:
+                skill_str = skill_str + str(skill) + " "
+
+        return skill_str
+
+
 
 class Road(object):
 
@@ -89,6 +100,9 @@ class Graph(object):
 
         print("Graph created. node count " + str(node_count) + " skill count " + str(skill_count))
         self.print_graph_nodes()
+
+    def get_all_nodes(self):
+        return [self.start_node] + self.intermediate_nodes + [self.end_node]
 
     def get_road_count(self):
         count = 0
@@ -185,6 +199,30 @@ class Graph(object):
                 road = winning_path[road_index]
                 node.add_gained_skill(road.skill_to_pass_road)
 
+
+def generate_graph_str(graph: Graph, include_gained_skills=False):
+    arr = []
+    all_nodes = graph.get_all_nodes()
+
+    for node in all_nodes:
+        node_str = node.get_name()
+        node_str = node_str + node.get_skills_joined()
+        if include_gained_skills:
+            node_str = node_str + node.get_gained_skills_joined()
+        arr.append(node_str)
+
+    return arr
+
+def winning_path_to_str_array(winning_path):
+    arr = []
+
+    for i in winning_path:
+        if isinstance(i, Road):
+            arr.append(str(i.skill_to_pass_road))
+        elif isinstance(i, Node):
+            arr.append(str(i.get_name()))
+
+    return arr
 
 def generate_winning_path(graph):
     path = [graph.start_node] + [Road(NONE_SKILL)]
@@ -342,7 +380,7 @@ def print_dict_human_readable(d):
             human_readable_dict = human_readable_dict + "\n"+ f"{key}: {value}"
     return human_readable_dict
 
-def vizualize_graph(graph, output_filename, input_params):
+def vizualize_graph(graph, output_filename, input_params, add_postfix = True, add_comprehensive_deatils = False):
     data = graph.connections
 
     # Create a directed multigraph
@@ -364,14 +402,16 @@ def vizualize_graph(graph, output_filename, input_params):
     A = nx.nx_agraph.to_agraph(G)
 
     # Set graph attributes
-    A.graph_attr['label'] = "Map Visualization\n"+"Node Count: " + str(graph.get_node_count()) \
+    if add_comprehensive_deatils:
+        A.graph_attr['label'] = "Map Visualization\n"+"Node Count: " + str(graph.get_node_count()) \
                             + "\nSkills: " + str(graph.skills) \
                             + "\nRoad Count: " + str(graph.get_road_count()) \
                             + "\nWinning Path Count: " + str(len(find_all_paths(graph))) \
                             + "\nInput parameters: " + print_dict_human_readable(input_params)
+    else:
+        A.graph_attr['label'] = "Map Visualization"
 
-    #A.graph_attr['label'] = "Map Visualization"
-
+    A.graph_attr['rankdir'] = 'LR' #added for horizontal image
     A.node_attr['style'] = 'rounded'
     A.node_attr['fillcolor'] = 'lightblue'
     A.graph_attr['size'] = "10,10!"
@@ -387,14 +427,14 @@ def vizualize_graph(graph, output_filename, input_params):
             del edge.attr['label']
 
     postfix = ""
-
-    for key, value in input_params.items():
-        if value is None:
-            postfix = postfix  + "_"
-        elif isinstance(value, list):
-            postfix = postfix + "_"+ f"{', '.join(map(str, value))}"
-        else:
-            postfix = postfix + "_"+ f"{value}"
+    if add_postfix:
+        for key, value in input_params.items():
+            if value is None:
+                postfix = postfix  + "_"
+            elif isinstance(value, list):
+                postfix = postfix + "_"+ f"{', '.join(map(str, value))}"
+            else:
+                postfix = postfix + "_"+ f"{value}"
 
 
         # Render the graph
@@ -407,13 +447,19 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
                  backward_step_count, required_skill_to_win, input_params):
     random.seed(seed)
     graph = Graph(room_count, skill_count)
-
+    graph_str = generate_graph_str(graph)
+    create_winning_path_image(-2, graph_str)
     winning_paths = []
 
     for i in range(minimum_winning_path_count):
         winning_path = generate_winning_path(graph)
+        winning_path_str = winning_path_to_str_array(winning_path)
+        create_winning_path_image(i, winning_path_str)
         graph.add_gained_skills_of_nodes(winning_path)
         winning_paths.append(winning_path)
+
+    graph_str = generate_graph_str(graph, True)
+    create_winning_path_image(-1, graph_str)
 
     graph = add_winning_paths_to_graph(graph, winning_paths)
 

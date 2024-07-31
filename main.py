@@ -1,13 +1,14 @@
 from mapGen import *
+from print_winning_pathss_as_image_example import create_path_image_with_filename
 
-seed_in = 768234
+seed_in = 126213768
 minimum_winning_path_count_in = 3
 room_count_in = 5
-skill_count_in = 3
+skill_count_in = 6
 sliding_count_in = 1
 neighbor_distance_in = 1
 backward_step_count_in = 1
-required_skills_to_win_in = [1,2, 3] #[skill_count_in, skill_count_in-1]
+required_skills_to_win_in = [1, 2] #[skill_count_in, skill_count_in-1]
 
 
 input_params = {
@@ -40,10 +41,17 @@ graph.print_connections()
 graph.print_nodes_and_skills_that_can_be_obtain_in_them()
 
 all_paths = find_all_paths(graph)
+print("Winning paths:")
+for index in range(len(all_paths)):
+    path = all_paths[index]
+    path_str = ["{0}".format(str(i)) for i in path]
+    print(path)
 
-for path in all_paths:
+    print(path_str)
+    create_path_image_with_filename("pathfind"+str(index)+".png", path)
     for i in path:
         print(str(i) + " ", end="")
     print()
+
 
 graph.print_graph_nodes()
