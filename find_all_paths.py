@@ -1,7 +1,9 @@
 from default_values import NONE_SKILL
 import math
+import datetime
 
 def is_entry_exist_in_history(history, from_node_name, to_node_name, gained_skills):
+    #print(str(datetime.datetime.now())+" is_entry_exist_in_history")
     if history.get(from_node_name) is None or history[from_node_name].get(to_node_name) is None:
         return False
 
@@ -14,6 +16,7 @@ def is_entry_exist_in_history(history, from_node_name, to_node_name, gained_skil
     return True
 
 def add_to_history(history, from_node_name, to_node_name, gained_skills):
+    #print(str(datetime.datetime.now()) + " add_to_history")
     if history.get(from_node_name) is None:
         history[from_node_name] = {}
 
@@ -22,6 +25,8 @@ def add_to_history(history, from_node_name, to_node_name, gained_skills):
     return history
 
 def pop_min_lenght_path(todo):
+    #print(str(datetime.datetime.now()) + " pop_min_lenght_path")
+
 
     min = math.inf
     min_index = -1
@@ -38,6 +43,8 @@ def pop_min_lenght_path(todo):
     return (from_node_name, to_node, gained_skills, path, path_length, todo)
 
 def check_required_skills(required_skills, gained_skills):
+    #print(str(datetime.datetime.now()) + " check_required_skills")
+
     have_all_required_skills = False
     road = None
     for required_skill in required_skills:
@@ -63,7 +70,11 @@ def check_required_skills(required_skills, gained_skills):
 
     return have_all_required_skills, road
 
+
 def find_all_paths(graph):
+    maxi = 0
+
+    #print(str(datetime.datetime.now()) + " find_all_paths")
     all_paths = []
     start_node = graph.start_node
     end_node_name = graph.end_node.get_name()
@@ -75,7 +86,8 @@ def find_all_paths(graph):
     history = {}
 
     while len(todo) > 0:
-
+        #print("todo "+str(len(todo)))
+        maxi = max(maxi, len(todo))
         (from_node_name, current_node, gained_skills, path, path_length , todo) = pop_min_lenght_path(todo)
 
         current_node_name = current_node.get_name()
@@ -120,4 +132,5 @@ def find_all_paths(graph):
 
                     visited.append(next_node_name)
 
+    #print("maxi ", str(maxi))
     return all_paths

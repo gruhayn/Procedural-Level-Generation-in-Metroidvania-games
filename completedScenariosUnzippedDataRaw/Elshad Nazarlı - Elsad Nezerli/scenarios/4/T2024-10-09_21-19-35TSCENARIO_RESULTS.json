@@ -1,0 +1,75 @@
+{
+    "email": "elsadnezerli1846@gmail.com",
+    "name": "Elshad",
+    "surname": "Nazarl\u0131",
+    "elapsedTime": 338.66354537010193,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497650.142661
+        },
+        "2": {
+            "action": "gain 4",
+            "isOkayAction": true,
+            "message": "You gained 4 ability.",
+            "startTime": 1728497655.701021
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728497665.229938
+        },
+        "4": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728497706.603187
+        },
+        "5": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497762.8574717
+        },
+        "6": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728497798.7269738
+        },
+        "7": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497811.2708516
+        },
+        "8": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497827.6471767
+        },
+        "9": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728497906.9629111
+        },
+        "10": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497946.1283123
+        },
+        "11": {
+            "action": "go N7",
+            "isOkayAction": true,
+            "message": "You went to N7",
+            "startTime": 1728497975.1974225
+        }
+    }
+}

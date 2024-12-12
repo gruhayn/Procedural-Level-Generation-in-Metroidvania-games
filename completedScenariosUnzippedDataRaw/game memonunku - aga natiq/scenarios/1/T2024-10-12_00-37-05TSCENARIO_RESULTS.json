@@ -1,0 +1,69 @@
+{
+    "email": "memoseyidov@gmail.com",
+    "name": "mehemmedeli",
+    "surname": "seyidov",
+    "elapsedTime": 290.66939759254456,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728718387.5561516
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728718397.9717999
+        },
+        "3": {
+            "action": "gain 2",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728718431.813658
+        },
+        "4": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728718440.3083649
+        },
+        "5": {
+            "action": " gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728718484.1492567
+        },
+        "6": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728718491.9884846
+        },
+        "7": {
+            "action": " go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728718504.3467672
+        },
+        "8": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728718515.6727242
+        },
+        "9": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728718612.378553
+        },
+        "10": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728718625.36896
+        }
+    }
+}

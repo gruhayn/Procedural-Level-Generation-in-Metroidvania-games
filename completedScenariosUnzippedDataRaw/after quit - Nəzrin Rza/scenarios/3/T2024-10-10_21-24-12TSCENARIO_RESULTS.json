@@ -1,0 +1,165 @@
+{
+    "email": "nzrinrza@gmail.com",
+    "name": "Nazrin",
+    "surname": "Rzayeva",
+    "elapsedTime": 72.15048551559448,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728584599.4814243
+        },
+        "2": {
+            "action": "gain 5",
+            "isOkayAction": true,
+            "message": "You gained 5 ability.",
+            "startTime": 1728584600.9795294
+        },
+        "3": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728584602.5263634
+        },
+        "4": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728584603.773306
+        },
+        "5": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728584605.8060534
+        },
+        "6": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728584609.4329607
+        },
+        "7": {
+            "action": "gain 4",
+            "isOkayAction": true,
+            "message": "You gained 4 ability.",
+            "startTime": 1728584611.0282114
+        },
+        "8": {
+            "action": "go N8",
+            "isOkayAction": true,
+            "message": "You went to N8",
+            "startTime": 1728584612.7758982
+        },
+        "9": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728584616.4337687
+        },
+        "10": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728584618.5337942
+        },
+        "11": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728584620.6457717
+        },
+        "12": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728584622.3438966
+        },
+        "13": {
+            "action": "go N7",
+            "isOkayAction": true,
+            "message": "You went to N7",
+            "startTime": 1728584623.8543897
+        },
+        "14": {
+            "action": "gain 6",
+            "isOkayAction": true,
+            "message": "You gained 6 ability.",
+            "startTime": 1728584626.1886075
+        },
+        "15": {
+            "action": "go N8",
+            "isOkayAction": true,
+            "message": "You went to N8",
+            "startTime": 1728584628.196356
+        },
+        "16": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728584630.174618
+        },
+        "17": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728584631.6460416
+        },
+        "18": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728584633.9113848
+        },
+        "19": {
+            "action": "go N7",
+            "isOkayAction": true,
+            "message": "You went to N7",
+            "startTime": 1728584635.6110797
+        },
+        "20": {
+            "action": "go N8",
+            "isOkayAction": true,
+            "message": "You went to N8",
+            "startTime": 1728584639.4656808
+        },
+        "21": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728584641.0146248
+        },
+        "22": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728584642.6899238
+        },
+        "23": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728584644.5744267
+        },
+        "24": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728584646.7867935
+        },
+        "25": {
+            "action": "go N9",
+            "isOkayAction": true,
+            "message": "You went to N9",
+            "startTime": 1728584648.5538952
+        },
+        "26": {
+            "action": "go N10",
+            "isOkayAction": true,
+            "message": "You went to N10",
+            "startTime": 1728584652.2738044
+        }
+    }
+}

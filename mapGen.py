@@ -98,8 +98,8 @@ class Graph(object):
             self.skills.append(skill_index)
             index = index + 1
 
-        print("Graph created. node count " + str(node_count) + " skill count " + str(skill_count))
-        self.print_graph_nodes()
+        #print("Graph created. node count " + str(node_count) + " skill count " + str(skill_count))
+        # self.print_graph_nodes()
 
     def get_all_nodes(self):
         return [self.start_node] + self.intermediate_nodes + [self.end_node]
@@ -149,16 +149,16 @@ class Graph(object):
     def print_graph_nodes(self):
         print("Graph nodes")
         print("Start Node")
-        print(self.start_node.get_name() + " " + str(self.start_node.existing_skills) + " gained skills " + str(
-            self.start_node.gained_skills))
+        print(self.start_node.get_name() + " " + str(self.start_node.existing_skills)) #+ " gained skills " + str(
+            #self.start_node.gained_skills))
 
         print("Intermediate nodes")
         for node in self.intermediate_nodes:
-            print(node.get_name() + " " + str(node.existing_skills) + " gained skills " + str(node.gained_skills))
+            print(node.get_name() + " " + str(node.existing_skills)) #+ " gained skills " + str(node.gained_skills))
 
         print("End Node")
-        print(self.end_node.get_name() + " " + str(self.end_node.existing_skills) + " gained skills " + str(
-            self.end_node.gained_skills))
+        print(self.end_node.get_name() + " " + str(self.end_node.existing_skills)) #+ " gained skills " + str(
+            #self.end_node.gained_skills))
 
     def add_connection(self, from_node: Node, to_node: Node, road: Road):
         if from_node.get_name() == to_node.get_name():
@@ -181,10 +181,25 @@ class Graph(object):
 
             self.connections[from_node.get_name()][to_node.get_name()] = prev
 
-            print("Created road: " + from_node.get_name() + " " + str(skill_to_pass_road) + " " + to_node.get_name())
+            #print("Created road: " + from_node.get_name() + " " + str(skill_to_pass_road) + " " + to_node.get_name())
     def print_connections(self):
         print("Graph connections")
         print(json.dumps(self.connections, sort_keys=False, indent=4))
+
+    def get_connections(self):
+        return self.connections
+
+    def get_graph_nodes(self):
+        nodes = {}
+        nodes["start"] = self.start_node.get_name()
+        nodes["end"] = self.end_node.get_name()
+        nodes[self.start_node.get_name()] = self.start_node.existing_skills
+        nodes[self.end_node.get_name()] = self.end_node.existing_skills
+
+        for node in self.intermediate_nodes:
+            nodes[node.get_name()] = node.existing_skills
+
+        return nodes
 
     def get_node_by_name(self, name):
         all_nodes = [self.start_node] + self.intermediate_nodes + [self.end_node]
@@ -232,22 +247,22 @@ def generate_winning_path(graph):
 
     path = path + [graph.end_node]
 
-    print()
-    print("Created path")
-    for el in path:
-        if isinstance(el, Node):
-            print(el.get_name(), end=" ")
-
-        if isinstance(el, Road):
-            print(el.skill_to_pass_road, end=" ")
-
-    print()
+    # print()
+    # print("Created path")
+    # for el in path:
+    #     if isinstance(el, Node):
+    #         print(el.get_name(), end=" ")
+    #
+    #     if isinstance(el, Road):
+    #         print(el.skill_to_pass_road, end=" ")
+    #
+    # print()
 
     return path
 
 
 def add_winning_paths_to_graph(graph, winning_paths):
-    print("Adding winning paths")
+    #print("Adding winning paths")
 
     for path in winning_paths:
         for node_index in range(0, len(path) - 2, 2):
@@ -256,13 +271,13 @@ def add_winning_paths_to_graph(graph, winning_paths):
             road: Road = path[node_index + 1]
             graph.add_connection(from_node, to_node, road)
 
-    print("End of adding winning paths")
+    # print("End of adding winning paths")
 
     return graph
 
 
 def add_connections_with_gained_skills(graph, winning_paths, sliding_count, neighbor_distance, backward_step_count):
-    print("Adding connections with gained skills")
+    # print("Adding connections with gained skills")
     for all_index in range(len(winning_paths)):
         for index in range(0, len(winning_paths[all_index]) - 1, 2):
             can_add_connection = True
@@ -301,7 +316,7 @@ def add_connections_with_gained_skills(graph, winning_paths, sliding_count, neig
             graph.add_connection(from_node, to_node, road)
 
 
-    print("End of adding connections with gained skills")
+    # print("End of adding connections with gained skills")
 
     return graph
 
@@ -328,23 +343,23 @@ def add_connections_with_gained_skills(graph, winning_paths, sliding_count, neig
 #     return graph
 
 def adjust_graph_based_on_required_skill_to_win(graph, required_skills_to_win):
-    print("Adjusting graph based on required skills to win")
+    # print("Adjusting graph based on required skills to win")
 
     if required_skills_to_win is None or len(required_skills_to_win) == 0:
-        print("No roads changed based on required_skills_to_win")
+        # print("No roads changed based on required_skills_to_win")
         return graph
 
-    print("Checking required_skills_to_win")
+    # print("Checking required_skills_to_win")
     new_required_skills_to_win = []
     for required_skill_to_win in required_skills_to_win:
         if required_skill_to_win in graph.skills:
             new_required_skills_to_win.append(required_skill_to_win)
-        else:
-            print(str(required_skill_to_win) + " skill omitted. Because not in list. List: " + str(graph.skills))
+        # else:
+        #     print(str(required_skill_to_win) + " skill omitted. Because not in list. List: " + str(graph.skills))
 
     required_skills_to_win = new_required_skills_to_win
 
-    print("Changed roads based on required skills to win. required_skills: " + str(required_skills_to_win))
+    # print("Changed roads based on required skills to win. required_skills: " + str(required_skills_to_win))
 
     end_node_name = graph.end_node.get_name()
     for from_node_name in graph.connections.keys():
@@ -361,11 +376,11 @@ def adjust_graph_based_on_required_skill_to_win(graph, required_skills_to_win):
             #               " changed road from " + str(required_skill_to_end) + " to " + str(required_skill_to_win))
             #     else:
             #         new_required_skills_to_end.append(required_skill_to_end)
-            print("from node " + from_node_name + " end node " + end_node_name +
-                  " changed road from " + str(required_skills_to_end) + " to " + str(required_skills_to_win))
+            # `print("from node " + from_node_name + " end node " + end_node_name +
+            #       " change`d road from " + str(required_skills_to_end) + " to " + str(required_skills_to_win))
             graph.connections[from_node_name][end_node_name] = [required_skills_to_win+[NONE_SKILL]]
 
-    print("End of adjusting graph based on required skills to win")
+    # print("End of adjusting graph based on required skills to win")
 
     return graph
 
@@ -447,51 +462,51 @@ def generate_map(seed, minimum_winning_path_count, room_count, skill_count, slid
                  backward_step_count, required_skill_to_win, input_params):
     random.seed(seed)
     graph = Graph(room_count, skill_count)
-    graph_str = generate_graph_str(graph)
-    create_winning_path_image(-2, graph_str)
+    #graph_str = generate_graph_str(graph)
+    #create_winning_path_image(-2, graph_str)
     winning_paths = []
 
     for i in range(minimum_winning_path_count):
         winning_path = generate_winning_path(graph)
-        winning_path_str = winning_path_to_str_array(winning_path)
-        create_winning_path_image(i, winning_path_str)
+        #winning_path_str = winning_path_to_str_array(winning_path)
+        #create_winning_path_image(i, winning_path_str)
         graph.add_gained_skills_of_nodes(winning_path)
         winning_paths.append(winning_path)
 
-    graph_str = generate_graph_str(graph, True)
-    create_winning_path_image(-1, graph_str)
+    #graph_str = generate_graph_str(graph, True)
+    #create_winning_path_image(-1, graph_str)
 
     graph = add_winning_paths_to_graph(graph, winning_paths)
 
     # graph = add_sliding_paths_to_graph(graph, winning_paths, sliding_count, neighbor_distance)
-    print("##########################################################")
+    #print("##########################################################")
 
-    graph.print_connections()
-    graph.print_graph_nodes()
-    vizualize_graph(graph, "1. winning_paths", input_params)
+    #graph.print_connections()
+    #graph.print_graph_nodes()
+    #vizualize_graph(graph, "1. winning_paths", input_params, False)
 
-    print("##########################################################")
+    #print("##########################################################")
 
     graph = add_connections_with_gained_skills(graph, winning_paths, sliding_count, neighbor_distance,
                                                backward_step_count)
 
-    print("##########################################################")
+    #print("##########################################################")
 
-    graph.print_connections()
-    graph.print_graph_nodes()
-    vizualize_graph(graph, "2. gained skills", input_params)
+    #graph.print_connections()
+    #graph.print_graph_nodes()
+    #vizualize_graph(graph, "2. gained skills", input_params, False)
 
-    print("##########################################################")
+    #print("##########################################################")
 
     graph = adjust_graph_based_on_required_skill_to_win(graph, required_skill_to_win)
 
-    print("##########################################################")
+    # print("##########################################################")
 
-    graph.print_connections()
-    graph.print_graph_nodes()
-    vizualize_graph(graph, "3. required_skills_to_win", input_params)
+    #graph.print_connections()
+    #graph.print_graph_nodes()
+    #vizualize_graph(graph, "3. required_skills_to_win", input_params, False)
 
-    print("##########################################################")
+    #print("##########################################################")
 
     return graph
 

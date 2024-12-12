@@ -1,0 +1,75 @@
+{
+    "email": "sav.ulvi.us@gmail.com",
+    "name": "Ulvi",
+    "surname": "Shavahatli",
+    "elapsedTime": 260.8272545337677,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494912.112687
+        },
+        "2": {
+            "action": "gain",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495009.0802875
+        },
+        "3": {
+            "action": "gain1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728495015.0499415
+        },
+        "4": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728495023.2504342
+        },
+        "5": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728495051.3746934
+        },
+        "6": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728495061.8723845
+        },
+        "7": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728495071.9819424
+        },
+        "8": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728495079.9344056
+        },
+        "9": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728495094.0836482
+        },
+        "10": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728495115.2767093
+        },
+        "11": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728495123.7900565
+        }
+    }
+}

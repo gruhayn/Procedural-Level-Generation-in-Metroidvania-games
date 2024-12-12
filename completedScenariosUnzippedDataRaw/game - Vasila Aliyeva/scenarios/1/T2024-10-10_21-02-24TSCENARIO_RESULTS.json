@@ -1,0 +1,63 @@
+{
+    "email": "vasilaaliyeffa@gmail.com",
+    "name": "Vasila",
+    "surname": "Aliyeva",
+    "elapsedTime": 138.8391993045807,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728583224.5520477
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728583238.6404126
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728583246.5226843
+        },
+        "4": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728583277.1297207
+        },
+        "5": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728583294.9402726
+        },
+        "6": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728583315.9628623
+        },
+        "7": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728583324.8632889
+        },
+        "8": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728583335.7522135
+        },
+        "9": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728583344.6505125
+        }
+    }
+}

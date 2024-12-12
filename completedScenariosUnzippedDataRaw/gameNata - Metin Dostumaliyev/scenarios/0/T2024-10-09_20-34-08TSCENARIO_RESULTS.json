@@ -1,0 +1,57 @@
+{
+    "email": "dostumaliyev@gmail.com",
+    "name": "metin",
+    "surname": "Dostumaliyev",
+    "elapsedTime": 550.0959579944611,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494760.458883
+        },
+        "2": {
+            "action": "go N3",
+            "isOkayAction": false,
+            "message": "You can not go to N3",
+            "startTime": 1728494853.6267848
+        },
+        "3": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728494880.6222608
+        },
+        "4": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728494883.1935112
+        },
+        "5": {
+            "action": "n3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728494919.6127958
+        },
+        "6": {
+            "action": "gain1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728495231.02562
+        },
+        "7": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728495237.418409
+        },
+        "8": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728495248.7057784
+        }
+    }
+}

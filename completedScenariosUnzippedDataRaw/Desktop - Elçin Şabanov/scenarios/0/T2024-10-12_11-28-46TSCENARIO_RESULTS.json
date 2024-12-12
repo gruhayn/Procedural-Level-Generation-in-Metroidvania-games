@@ -1,0 +1,27 @@
+{
+    "email": "elchinshabanov98@gmail.com",
+    "name": "Elchin",
+    "surname": "Shabanov",
+    "elapsedTime": 123.88892674446106,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728718058.7587879
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728718088.2546065
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728718126.4309814
+        }
+    }
+}

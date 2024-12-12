@@ -1,0 +1,27 @@
+{
+    "email": "amira55@list.ru",
+    "name": "Sohrab",
+    "surname": "Asgarzade",
+    "elapsedTime": 68.40832114219666,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728582711.402359
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728582722.917774
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728582734.1685953
+        }
+    }
+}

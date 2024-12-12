@@ -1,0 +1,27 @@
+{
+    "email": "cahid132@gmail.com",
+    "name": "Jahid",
+    "surname": "Yusifzada",
+    "elapsedTime": 159.96495366096497,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494788.5455425
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728494816.6653554
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728494852.958276
+        }
+    }
+}

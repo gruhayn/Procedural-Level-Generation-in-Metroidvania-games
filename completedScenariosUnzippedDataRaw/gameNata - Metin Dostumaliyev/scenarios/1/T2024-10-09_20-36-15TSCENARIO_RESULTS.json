@@ -1,0 +1,75 @@
+{
+    "email": "dostumaliyev@gmail.com",
+    "name": "metin",
+    "surname": "Dostumaliyev",
+    "elapsedTime": 112.76842617988586,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728495284.8281147
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728495292.3529387
+        },
+        "3": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728495297.5769265
+        },
+        "4": {
+            "action": "go N4",
+            "isOkayAction": false,
+            "message": "You can not go to N4",
+            "startTime": 1728495311.2060544
+        },
+        "5": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728495329.1287394
+        },
+        "6": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728495344.5665317
+        },
+        "7": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495344.6005166
+        },
+        "8": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495346.2245696
+        },
+        "9": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495346.7722054
+        },
+        "10": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495347.037923
+        },
+        "11": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728495375.6258433
+        }
+    }
+}

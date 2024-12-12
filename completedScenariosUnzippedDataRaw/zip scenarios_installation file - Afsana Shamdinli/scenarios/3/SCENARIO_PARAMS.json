@@ -1,0 +1,16 @@
+{
+    "Seed": 126213768,
+    "Minimum Winning Path Count": 2,
+    "Room Count": 10,
+    "Skill Count": 6,
+    "Sliding Count": 1,
+    "Neighbor Distance": 2,
+    "Backward Step Count": 2,
+    "Required Skills to Win": [
+        0,
+        1,
+        2,
+        3,
+        4
+    ]
+}

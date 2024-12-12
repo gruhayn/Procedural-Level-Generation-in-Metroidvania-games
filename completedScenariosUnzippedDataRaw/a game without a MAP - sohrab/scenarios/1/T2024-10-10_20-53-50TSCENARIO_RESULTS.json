@@ -1,0 +1,57 @@
+{
+    "email": "amira55@list.ru",
+    "name": "Sohrab",
+    "surname": "Asgarzade",
+    "elapsedTime": 50.43403077125549,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728582789.187493
+        },
+        "2": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728582795.0191157
+        },
+        "3": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728582798.7427154
+        },
+        "4": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728582806.9792593
+        },
+        "5": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728582816.305097
+        },
+        "6": {
+            "action": "gain ",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728582825.2926579
+        },
+        "7": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728582828.171306
+        },
+        "8": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728582830.6049862
+        }
+    }
+}

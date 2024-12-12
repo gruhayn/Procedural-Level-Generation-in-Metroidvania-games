@@ -1,0 +1,69 @@
+{
+    "email": "kuzey.kenan@live.com",
+    "name": "kenan",
+    "surname": "aktas",
+    "elapsedTime": 281.65404295921326,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go to N2",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728494781.9143867
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728494828.1239
+        },
+        "3": {
+            "action": "gain1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728494834.9371963
+        },
+        "4": {
+            "action": "go n2",
+            "isOkayAction": false,
+            "message": "You can not go to n2",
+            "startTime": 1728494882.0741224
+        },
+        "5": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728494886.354634
+        },
+        "6": {
+            "action": "n2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728494892.54645
+        },
+        "7": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494920.743814
+        },
+        "8": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728494929.651153
+        },
+        "9": {
+            "action": "gain 1 ",
+            "isOkayAction": false,
+            "message": "You already have this.",
+            "startTime": 1728494948.8235276
+        },
+        "10": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728494970.52875
+        }
+    }
+}

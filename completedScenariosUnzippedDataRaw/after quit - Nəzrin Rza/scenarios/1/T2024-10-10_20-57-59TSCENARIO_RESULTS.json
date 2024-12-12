@@ -1,0 +1,69 @@
+{
+    "email": "nzrinrza@gmail.com",
+    "name": "Nazrin",
+    "surname": "Rzayeva",
+    "elapsedTime": 240.59261274337769,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728582874.370895
+        },
+        "2": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728582886.072158
+        },
+        "3": {
+            "action": "gain1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728582892.071451
+        },
+        "4": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728582899.6292014
+        },
+        "5": {
+            "action": "gain2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728582910.4021869
+        },
+        "6": {
+            "action": "gain2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583014.7664907
+        },
+        "7": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728583021.9428642
+        },
+        "8": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728583029.8449867
+        },
+        "9": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728583040.9127455
+        },
+        "10": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728583079.048318
+        }
+    }
+}

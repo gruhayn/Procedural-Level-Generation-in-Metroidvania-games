@@ -1,0 +1,27 @@
+{
+    "email": "memoseyidov@gmail.com",
+    "name": "mehemmedeli",
+    "surname": "seyidov",
+    "elapsedTime": 100.51159167289734,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728718066.902009
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728718106.5181882
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728718126.1500895
+        }
+    }
+}

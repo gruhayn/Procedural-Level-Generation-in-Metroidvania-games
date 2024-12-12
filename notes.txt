@@ -1,0 +1,3 @@
+how to create game exe
+pip install pyinstaller
+pyinstaller --onefile your_script.py

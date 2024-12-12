@@ -1,0 +1,27 @@
+{
+    "email": "nzrinrza@gmail.com",
+    "name": "Nazrin",
+    "surname": "Rzayeva",
+    "elapsedTime": 102.72888350486755,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728582769.654368
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728582778.431072
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728582816.6281502
+        }
+    }
+}

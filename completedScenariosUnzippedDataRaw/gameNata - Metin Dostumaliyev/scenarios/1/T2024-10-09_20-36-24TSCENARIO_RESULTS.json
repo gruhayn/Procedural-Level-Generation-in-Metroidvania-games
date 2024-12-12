@@ -1,0 +1,15 @@
+{
+    "email": "dostumaliyev@gmail.com",
+    "name": "metin",
+    "surname": "Dostumaliyev",
+    "elapsedTime": 5.306435823440552,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728495384.144805
+        }
+    }
+}

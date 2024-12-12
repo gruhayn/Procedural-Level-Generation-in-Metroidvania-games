@@ -1,0 +1,63 @@
+{
+    "email": "cingizmustafazade2016@gmail.com",
+    "name": "Cengiz",
+    "surname": "Mustafazade",
+    "elapsedTime": 136.26916456222534,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728494905.1747544
+        },
+        "2": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728494924.567258
+        },
+        "3": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494934.7293587
+        },
+        "4": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728494961.6375396
+        },
+        "5": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728494970.8690634
+        },
+        "6": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728494975.7116084
+        },
+        "7": {
+            "action": "go N2",
+            "isOkayAction": false,
+            "message": "You can not go to N2",
+            "startTime": 1728494995.9578443
+        },
+        "8": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728495005.9864402
+        },
+        "9": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728495016.6865873
+        }
+    }
+}

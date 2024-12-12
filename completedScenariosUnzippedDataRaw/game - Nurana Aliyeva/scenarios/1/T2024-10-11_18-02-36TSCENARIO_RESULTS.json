@@ -1,0 +1,57 @@
+{
+    "email": "nurana.aliyeva22@gmail.com",
+    "name": "Nurana",
+    "surname": "Aliyeva",
+    "elapsedTime": 319.9290292263031,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728655109.295677
+        },
+        "2": {
+            "action": "gain 2",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728655174.9412007
+        },
+        "3": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728655207.7594614
+        },
+        "4": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728655222.4360504
+        },
+        "5": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728655247.2333212
+        },
+        "6": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728655263.3270261
+        },
+        "7": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728655320.0239103
+        },
+        "8": {
+            "action": " go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728655356.8986592
+        }
+    }
+}

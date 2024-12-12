@@ -24,7 +24,7 @@ def create_graph(path):
         G.add_edge(path[i], path[i + 1], weight=path[i + 1])
     return G
 
-def create_path_image_with_filename(output_file, path):
+def create_path_image_with_filename(output_file_name, path, format):
     G = create_graph(path)
     A = to_agraph(G)
     A.graph_attr['rankdir'] = 'LR'
@@ -33,14 +33,15 @@ def create_path_image_with_filename(output_file, path):
     A.graph_attr['size'] = "10,10!"
     A.graph_attr['nodesep'] = 0.5
     A.graph_attr['ranksep'] = 1
-    A.draw(output_file, prog='dot', format='png')
-    print(output_file + " file created")
+    full_file_name = output_file_name+"."+format
+    A.draw(full_file_name, prog='dot', format=format)
+    print(full_file_name + " file created")
 
 def create_winning_path_image(idx, path):
     print("create_winning_path_image start")
     print(path)
-    output_file = f"winning_path_{idx + 1}.png"
-    create_path_image_with_filename(output_file, path)
+    output_file = f"winning_path_{idx + 1}"
+    create_path_image_with_filename(output_file_name, path, "pdf")
 
 # for idx, path in enumerate(winning_paths):
 #     create_winning_path_image(idx, path)

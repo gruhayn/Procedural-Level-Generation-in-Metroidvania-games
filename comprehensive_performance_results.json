@@ -1,0 +1,5330 @@
+[
+{
+    "input_params": {
+        "Seed": 862586,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0005761999636888504,
+    "cpu_time": 0.0005761999636888504,
+    "memory_used": 0.015967369079589844,
+    "peak_memory": 0.017104148864746094
+},
+{
+    "input_params": {
+        "Seed": 101809,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.000484999967738986,
+    "cpu_time": 0.000484999967738986,
+    "memory_used": 0.004515647888183594,
+    "peak_memory": 0.006178855895996094
+},
+{
+    "input_params": {
+        "Seed": 947635,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0005393000319600105,
+    "cpu_time": 0.0005393000319600105,
+    "memory_used": 0.004607200622558594,
+    "peak_memory": 0.006346702575683594
+},
+{
+    "input_params": {
+        "Seed": 968600,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.000573399942368269,
+    "cpu_time": 0.000573399942368269,
+    "memory_used": 0.004584312438964844,
+    "peak_memory": 0.006308555603027344
+},
+{
+    "input_params": {
+        "Seed": 232705,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0005270000547170639,
+    "cpu_time": 0.0005270000547170639,
+    "memory_used": 0.005368232727050781,
+    "peak_memory": 0.0068759918212890625
+},
+{
+    "input_params": {
+        "Seed": 37223,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.000539200147613883,
+    "cpu_time": 0.000539200147613883,
+    "memory_used": 0.004913330078125,
+    "peak_memory": 0.006482124328613281
+},
+{
+    "input_params": {
+        "Seed": 408727,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.000506900018081069,
+    "cpu_time": 0.000506900018081069,
+    "memory_used": 0.00550079345703125,
+    "peak_memory": 0.007008552551269531
+},
+{
+    "input_params": {
+        "Seed": 995879,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0005153000820428133,
+    "cpu_time": 0.0005153000820428133,
+    "memory_used": 0.004826545715332031,
+    "peak_memory": 0.006512641906738281
+},
+{
+    "input_params": {
+        "Seed": 272091,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0014085001312196255,
+    "cpu_time": 0.0014085001312196255,
+    "memory_used": 0.008469581604003906,
+    "peak_memory": 0.012169837951660156
+},
+{
+    "input_params": {
+        "Seed": 475882,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.007197299972176552,
+    "cpu_time": 0.007197299972176552,
+    "memory_used": 0.006459236145019531,
+    "peak_memory": 0.01562976837158203
+},
+{
+    "input_params": {
+        "Seed": 171483,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0014020998496562243,
+    "cpu_time": 0.0014020998496562243,
+    "memory_used": 0.006434440612792969,
+    "peak_memory": 0.010119438171386719
+},
+{
+    "input_params": {
+        "Seed": 560814,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.006584299961104989,
+    "cpu_time": 0.006584299961104989,
+    "memory_used": 0.0063495635986328125,
+    "peak_memory": 0.014207839965820312
+},
+{
+    "input_params": {
+        "Seed": 324071,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.001401699846610427,
+    "cpu_time": 0.001401699846610427,
+    "memory_used": 0.008624076843261719,
+    "peak_memory": 0.01180267333984375
+},
+{
+    "input_params": {
+        "Seed": 281990,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.006535700056701899,
+    "cpu_time": 0.006535700056701899,
+    "memory_used": 0.00644683837890625,
+    "peak_memory": 0.014617919921875
+},
+{
+    "input_params": {
+        "Seed": 492270,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0013939000200480223,
+    "cpu_time": 0.0013939000200480223,
+    "memory_used": 0.008582115173339844,
+    "peak_memory": 0.012190818786621094
+},
+{
+    "input_params": {
+        "Seed": 959161,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.00935510010458529,
+    "cpu_time": 0.00935510010458529,
+    "memory_used": 0.006690025329589844,
+    "peak_memory": 0.017470359802246094
+},
+{
+    "input_params": {
+        "Seed": 499304,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0020427999552339315,
+    "cpu_time": 0.0020427999552339315,
+    "memory_used": 0.009173393249511719,
+    "peak_memory": 0.014719963073730469
+},
+{
+    "input_params": {
+        "Seed": 648097,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.07953480002470315,
+    "cpu_time": 0.07953480002470315,
+    "memory_used": 0.008036613464355469,
+    "peak_memory": 0.04146862030029297
+},
+{
+    "input_params": {
+        "Seed": 413923,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.002112400019541383,
+    "cpu_time": 0.002112400019541383,
+    "memory_used": 0.009224891662597656,
+    "peak_memory": 0.014756202697753906
+},
+{
+    "input_params": {
+        "Seed": 247047,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.05975760007277131,
+    "cpu_time": 0.05975760007277131,
+    "memory_used": 0.007904052734375,
+    "peak_memory": 0.03452301025390625
+},
+{
+    "input_params": {
+        "Seed": 601868,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0020228999201208353,
+    "cpu_time": 0.0020228999201208353,
+    "memory_used": 0.009084701538085938,
+    "peak_memory": 0.014600753784179688
+},
+{
+    "input_params": {
+        "Seed": 161018,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.02845399989746511,
+    "cpu_time": 0.02845399989746511,
+    "memory_used": 0.007709503173828125,
+    "peak_memory": 0.027744293212890625
+},
+{
+    "input_params": {
+        "Seed": 177025,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0021136999130249023,
+    "cpu_time": 0.0021136999130249023,
+    "memory_used": 0.009249687194824219,
+    "peak_memory": 0.014750480651855469
+},
+{
+    "input_params": {
+        "Seed": 57767,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.038652499904856086,
+    "cpu_time": 0.038652499904856086,
+    "memory_used": 0.0075283050537109375,
+    "peak_memory": 0.03274345397949219
+},
+{
+    "input_params": {
+        "Seed": 473231,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005628999788314104,
+    "cpu_time": 0.0005628999788314104,
+    "memory_used": 0.004958152770996094,
+    "peak_memory": 0.007620811462402344
+},
+{
+    "input_params": {
+        "Seed": 885369,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005735000595450401,
+    "cpu_time": 0.0005735000595450401,
+    "memory_used": 0.004935264587402344,
+    "peak_memory": 0.007651329040527344
+},
+{
+    "input_params": {
+        "Seed": 385771,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005314999725669622,
+    "cpu_time": 0.0005314999725669622,
+    "memory_used": 0.004950523376464844,
+    "peak_memory": 0.007613182067871094
+},
+{
+    "input_params": {
+        "Seed": 39435,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.000536999898031354,
+    "cpu_time": 0.000536999898031354,
+    "memory_used": 0.004978179931640625,
+    "peak_memory": 0.007686614990234375
+},
+{
+    "input_params": {
+        "Seed": 724378,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005185999907553196,
+    "cpu_time": 0.0005185999907553196,
+    "memory_used": 0.005725860595703125,
+    "peak_memory": 0.008172035217285156
+},
+{
+    "input_params": {
+        "Seed": 797381,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0006150000263005495,
+    "cpu_time": 0.0006150000263005495,
+    "memory_used": 0.005373954772949219,
+    "peak_memory": 0.00787353515625
+},
+{
+    "input_params": {
+        "Seed": 788207,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005236000288277864,
+    "cpu_time": 0.0005236000288277864,
+    "memory_used": 0.005725860595703125,
+    "peak_memory": 0.008172035217285156
+},
+{
+    "input_params": {
+        "Seed": 373175,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0006059000734239817,
+    "cpu_time": 0.0006059000734239817,
+    "memory_used": 0.005560874938964844,
+    "peak_memory": 0.007984161376953125
+},
+{
+    "input_params": {
+        "Seed": 511023,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015793000347912312,
+    "cpu_time": 0.0015793000347912312,
+    "memory_used": 0.008306503295898438,
+    "peak_memory": 0.013092041015625
+},
+{
+    "input_params": {
+        "Seed": 635149,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.007849100045859814,
+    "cpu_time": 0.007849100045859814,
+    "memory_used": 0.007210731506347656,
+    "peak_memory": 0.016289710998535156
+},
+{
+    "input_params": {
+        "Seed": 575645,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015170001424849033,
+    "cpu_time": 0.0015170001424849033,
+    "memory_used": 0.0074367523193359375,
+    "peak_memory": 0.012418746948242188
+},
+{
+    "input_params": {
+        "Seed": 773812,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006076199933886528,
+    "cpu_time": 0.006076199933886528,
+    "memory_used": 0.0070552825927734375,
+    "peak_memory": 0.014478683471679688
+},
+{
+    "input_params": {
+        "Seed": 80662,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.001654100138694048,
+    "cpu_time": 0.001654100138694048,
+    "memory_used": 0.009248733520507812,
+    "peak_memory": 0.013991355895996094
+},
+{
+    "input_params": {
+        "Seed": 619936,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.00527419988065958,
+    "cpu_time": 0.00527419988065958,
+    "memory_used": 0.0068607330322265625,
+    "peak_memory": 0.014764785766601562
+},
+{
+    "input_params": {
+        "Seed": 596030,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015132001135498285,
+    "cpu_time": 0.0015132001135498285,
+    "memory_used": 0.010142326354980469,
+    "peak_memory": 0.01438140869140625
+},
+{
+    "input_params": {
+        "Seed": 995478,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.00792080000974238,
+    "cpu_time": 0.00792080000974238,
+    "memory_used": 0.0070343017578125,
+    "peak_memory": 0.01798248291015625
+},
+{
+    "input_params": {
+        "Seed": 617438,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002552999882027507,
+    "cpu_time": 0.002552999882027507,
+    "memory_used": 0.011629104614257812,
+    "peak_memory": 0.018365859985351562
+},
+{
+    "input_params": {
+        "Seed": 326243,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.09961910010315478,
+    "cpu_time": 0.09961910010315478,
+    "memory_used": 0.009737968444824219,
+    "peak_memory": 0.057407379150390625
+},
+{
+    "input_params": {
+        "Seed": 470214,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0026766001246869564,
+    "cpu_time": 0.0026766001246869564,
+    "memory_used": 0.011607170104980469,
+    "peak_memory": 0.0178680419921875
+},
+{
+    "input_params": {
+        "Seed": 165069,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.038218599976971745,
+    "cpu_time": 0.038218599976971745,
+    "memory_used": 0.008665084838867188,
+    "peak_memory": 0.03247642517089844
+},
+{
+    "input_params": {
+        "Seed": 884563,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002509000012651086,
+    "cpu_time": 0.002509000012651086,
+    "memory_used": 0.012429237365722656,
+    "peak_memory": 0.019005775451660156
+},
+{
+    "input_params": {
+        "Seed": 228566,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.06708250008523464,
+    "cpu_time": 0.06708250008523464,
+    "memory_used": 0.008977890014648438,
+    "peak_memory": 0.04667472839355469
+},
+{
+    "input_params": {
+        "Seed": 863467,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0028204999398440123,
+    "cpu_time": 0.0028204999398440123,
+    "memory_used": 0.012605667114257812,
+    "peak_memory": 0.019151687622070312
+},
+{
+    "input_params": {
+        "Seed": 855718,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.07259849994443357,
+    "cpu_time": 0.07259849994443357,
+    "memory_used": 0.009594917297363281,
+    "peak_memory": 0.05253314971923828
+},
+{
+    "input_params": {
+        "Seed": 466274,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005483999848365784,
+    "cpu_time": 0.0005483999848365784,
+    "memory_used": 0.005019187927246094,
+    "peak_memory": 0.007681846618652344
+},
+{
+    "input_params": {
+        "Seed": 557160,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0006130998954176903,
+    "cpu_time": 0.0006130998954176903,
+    "memory_used": 0.005019187927246094,
+    "peak_memory": 0.007742881774902344
+},
+{
+    "input_params": {
+        "Seed": 455364,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.000543300062417984,
+    "cpu_time": 0.000543300062417984,
+    "memory_used": 0.005019187927246094,
+    "peak_memory": 0.007681846618652344
+},
+{
+    "input_params": {
+        "Seed": 921947,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0006099999882280827,
+    "cpu_time": 0.0006099999882280827,
+    "memory_used": 0.005019187927246094,
+    "peak_memory": 0.007742881774902344
+},
+{
+    "input_params": {
+        "Seed": 914523,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005322000943124294,
+    "cpu_time": 0.0005322000943124294,
+    "memory_used": 0.005786895751953125,
+    "peak_memory": 0.008233070373535156
+},
+{
+    "input_params": {
+        "Seed": 201326,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0007486001122742891,
+    "cpu_time": 0.0007486001122742891,
+    "memory_used": 0.00597381591796875,
+    "peak_memory": 0.008442878723144531
+},
+{
+    "input_params": {
+        "Seed": 5358,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0005212998948991299,
+    "cpu_time": 0.0005212998948991299,
+    "memory_used": 0.005786895751953125,
+    "peak_memory": 0.008233070373535156
+},
+{
+    "input_params": {
+        "Seed": 889894,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0006915999110788107,
+    "cpu_time": 0.0006915999110788107,
+    "memory_used": 0.005786895751953125,
+    "peak_memory": 0.008324623107910156
+},
+{
+    "input_params": {
+        "Seed": 697075,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0014983001165091991,
+    "cpu_time": 0.0014983001165091991,
+    "memory_used": 0.00820159912109375,
+    "peak_memory": 0.01319122314453125
+},
+{
+    "input_params": {
+        "Seed": 660575,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.005785500165075064,
+    "cpu_time": 0.005785500165075064,
+    "memory_used": 0.0072765350341796875,
+    "peak_memory": 0.016309738159179688
+},
+{
+    "input_params": {
+        "Seed": 195133,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015690000727772713,
+    "cpu_time": 0.0015690000727772713,
+    "memory_used": 0.007334709167480469,
+    "peak_memory": 0.012270927429199219
+},
+{
+    "input_params": {
+        "Seed": 556666,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0064350999891757965,
+    "cpu_time": 0.0064350999891757965,
+    "memory_used": 0.007409095764160156,
+    "peak_memory": 0.016617774963378906
+},
+{
+    "input_params": {
+        "Seed": 49466,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015011997893452644,
+    "cpu_time": 0.0015011997893452644,
+    "memory_used": 0.00891876220703125,
+    "peak_memory": 0.013416290283203125
+},
+{
+    "input_params": {
+        "Seed": 155047,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.009622599929571152,
+    "cpu_time": 0.009622599929571152,
+    "memory_used": 0.0077686309814453125,
+    "peak_memory": 0.019830703735351562
+},
+{
+    "input_params": {
+        "Seed": 506652,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0015422999858856201,
+    "cpu_time": 0.0015422999858856201,
+    "memory_used": 0.009272575378417969,
+    "peak_memory": 0.0136260986328125
+},
+{
+    "input_params": {
+        "Seed": 649364,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0068703999277204275,
+    "cpu_time": 0.0068703999277204275,
+    "memory_used": 0.007750511169433594,
+    "peak_memory": 0.018897056579589844
+},
+{
+    "input_params": {
+        "Seed": 474157,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002620199928060174,
+    "cpu_time": 0.002620199928060174,
+    "memory_used": 0.012913703918457031,
+    "peak_memory": 0.01968097686767578
+},
+{
+    "input_params": {
+        "Seed": 829805,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0845987000502646,
+    "cpu_time": 0.0845987000502646,
+    "memory_used": 0.009846687316894531,
+    "peak_memory": 0.05853748321533203
+},
+{
+    "input_params": {
+        "Seed": 335625,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0024993999395519495,
+    "cpu_time": 0.0024993999395519495,
+    "memory_used": 0.01085662841796875,
+    "peak_memory": 0.01767730712890625
+},
+{
+    "input_params": {
+        "Seed": 131018,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.07201330014504492,
+    "cpu_time": 0.07201330014504492,
+    "memory_used": 0.009219169616699219,
+    "peak_memory": 0.05276012420654297
+},
+{
+    "input_params": {
+        "Seed": 764841,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002485899953171611,
+    "cpu_time": 0.002485899953171611,
+    "memory_used": 0.013274192810058594,
+    "peak_memory": 0.019878387451171875
+},
+{
+    "input_params": {
+        "Seed": 328343,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.13689690013416111,
+    "cpu_time": 0.13689690013416111,
+    "memory_used": 0.010142326354980469,
+    "peak_memory": 0.07004070281982422
+},
+{
+    "input_params": {
+        "Seed": 744663,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0028083999641239643,
+    "cpu_time": 0.0028083999641239643,
+    "memory_used": 0.012997627258300781,
+    "peak_memory": 0.01957416534423828
+},
+{
+    "input_params": {
+        "Seed": 991711,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 10,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.044549499871209264,
+    "cpu_time": 0.044549499871209264,
+    "memory_used": 0.008721351623535156,
+    "peak_memory": 0.040207862854003906
+},
+{
+    "input_params": {
+        "Seed": 8694,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0023399998899549246,
+    "cpu_time": 0.0023399998899549246,
+    "memory_used": 0.017737388610839844,
+    "peak_memory": 0.021460533142089844
+},
+{
+    "input_params": {
+        "Seed": 40710,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.002386000007390976,
+    "cpu_time": 0.002386000007390976,
+    "memory_used": 0.014723777770996094,
+    "peak_memory": 0.018492698669433594
+},
+{
+    "input_params": {
+        "Seed": 165766,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0022413001861423254,
+    "cpu_time": 0.0022413001861423254,
+    "memory_used": 0.015013694763183594,
+    "peak_memory": 0.018736839294433594
+},
+{
+    "input_params": {
+        "Seed": 305534,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0021945000626146793,
+    "cpu_time": 0.0021945000626146793,
+    "memory_used": 0.014594078063964844,
+    "peak_memory": 0.018370628356933594
+},
+{
+    "input_params": {
+        "Seed": 903621,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.002069799927994609,
+    "cpu_time": 0.002069799927994609,
+    "memory_used": 0.017464637756347656,
+    "peak_memory": 0.02095508575439453
+},
+{
+    "input_params": {
+        "Seed": 836781,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.002943200059235096,
+    "cpu_time": 0.002943200059235096,
+    "memory_used": 0.015069961547851562,
+    "peak_memory": 0.018606185913085938
+},
+{
+    "input_params": {
+        "Seed": 523940,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.002099899807944894,
+    "cpu_time": 0.002099899807944894,
+    "memory_used": 0.017486572265625,
+    "peak_memory": 0.020992279052734375
+},
+{
+    "input_params": {
+        "Seed": 815047,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.0021151001565158367,
+    "cpu_time": 0.0021151001565158367,
+    "memory_used": 0.014801979064941406,
+    "peak_memory": 0.018486976623535156
+},
+{
+    "input_params": {
+        "Seed": 39554,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.006331400014460087,
+    "cpu_time": 0.006331400014460087,
+    "memory_used": 0.033959388732910156,
+    "peak_memory": 0.044144630432128906
+},
+{
+    "input_params": {
+        "Seed": 770678,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.06252899998798966,
+    "cpu_time": 0.06252899998798966,
+    "memory_used": 0.024219512939453125,
+    "peak_memory": 0.043178558349609375
+},
+{
+    "input_params": {
+        "Seed": 222412,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.008445800049230456,
+    "cpu_time": 0.008445800049230456,
+    "memory_used": 0.024529457092285156,
+    "peak_memory": 0.034714698791503906
+},
+{
+    "input_params": {
+        "Seed": 354812,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.05032229982316494,
+    "cpu_time": 0.05032229982316494,
+    "memory_used": 0.023838043212890625,
+    "peak_memory": 0.041553497314453125
+},
+{
+    "input_params": {
+        "Seed": 577639,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.007049900013953447,
+    "cpu_time": 0.007049900013953447,
+    "memory_used": 0.03267192840576172,
+    "peak_memory": 0.043951988220214844
+},
+{
+    "input_params": {
+        "Seed": 511226,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.059098699828609824,
+    "cpu_time": 0.059098699828609824,
+    "memory_used": 0.024346351623535156,
+    "peak_memory": 0.043328285217285156
+},
+{
+    "input_params": {
+        "Seed": 554312,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.006990999914705753,
+    "cpu_time": 0.006990999914705753,
+    "memory_used": 0.03532600402832031,
+    "peak_memory": 0.045027732849121094
+},
+{
+    "input_params": {
+        "Seed": 317520,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.06578750000335276,
+    "cpu_time": 0.06578750000335276,
+    "memory_used": 0.024648666381835938,
+    "peak_memory": 0.04421043395996094
+},
+{
+    "input_params": {
+        "Seed": 48979,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.010013699997216463,
+    "cpu_time": 0.010013699997216463,
+    "memory_used": 0.047593116760253906,
+    "peak_memory": 0.0648202896118164
+},
+{
+    "input_params": {
+        "Seed": 631331,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 2.4734624000266194,
+    "cpu_time": 2.4734624000266194,
+    "memory_used": 0.03336906433105469,
+    "peak_memory": 0.1494274139404297
+},
+{
+    "input_params": {
+        "Seed": 812240,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.009636500151827931,
+    "cpu_time": 0.009636500151827931,
+    "memory_used": 0.046507835388183594,
+    "peak_memory": 0.0639028549194336
+},
+{
+    "input_params": {
+        "Seed": 942972,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 2.16892939992249,
+    "cpu_time": 2.16892939992249,
+    "memory_used": 0.033005714416503906,
+    "peak_memory": 0.1397867202758789
+},
+{
+    "input_params": {
+        "Seed": 966223,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.009653900051489472,
+    "cpu_time": 0.009653900051489472,
+    "memory_used": 0.047565460205078125,
+    "peak_memory": 0.06476211547851562
+},
+{
+    "input_params": {
+        "Seed": 382072,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 2.00915229995735,
+    "cpu_time": 2.00915229995735,
+    "memory_used": 0.033318519592285156,
+    "peak_memory": 0.14037418365478516
+},
+{
+    "input_params": {
+        "Seed": 64883,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.010079399915412068,
+    "cpu_time": 0.010079399915412068,
+    "memory_used": 0.04474067687988281,
+    "peak_memory": 0.06194496154785156
+},
+{
+    "input_params": {
+        "Seed": 780451,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 2.044389700051397,
+    "cpu_time": 2.044389700051397,
+    "memory_used": 0.03315448760986328,
+    "peak_memory": 0.13926410675048828
+},
+{
+    "input_params": {
+        "Seed": 206749,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0021856999956071377,
+    "cpu_time": 0.0021856999956071377,
+    "memory_used": 0.015845298767089844,
+    "peak_memory": 0.020491600036621094
+},
+{
+    "input_params": {
+        "Seed": 791377,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0024516999255865812,
+    "cpu_time": 0.0024516999255865812,
+    "memory_used": 0.016005516052246094,
+    "peak_memory": 0.020712852478027344
+},
+{
+    "input_params": {
+        "Seed": 884914,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0020486998837441206,
+    "cpu_time": 0.0020486998837441206,
+    "memory_used": 0.016119956970214844,
+    "peak_memory": 0.020766258239746094
+},
+{
+    "input_params": {
+        "Seed": 53259,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002381300088018179,
+    "cpu_time": 0.002381300088018179,
+    "memory_used": 0.015570640563964844,
+    "peak_memory": 0.020277976989746094
+},
+{
+    "input_params": {
+        "Seed": 687429,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0021754999179393053,
+    "cpu_time": 0.0021754999179393053,
+    "memory_used": 0.017854690551757812,
+    "peak_memory": 0.022214889526367188
+},
+{
+    "input_params": {
+        "Seed": 972952,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0030565999913960695,
+    "cpu_time": 0.0030565999913960695,
+    "memory_used": 0.017679214477539062,
+    "peak_memory": 0.022124290466308594
+},
+{
+    "input_params": {
+        "Seed": 83785,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0022038999013602734,
+    "cpu_time": 0.0022038999013602734,
+    "memory_used": 0.019171714782714844,
+    "peak_memory": 0.023532867431640625
+},
+{
+    "input_params": {
+        "Seed": 836919,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0025847998913377523,
+    "cpu_time": 0.0025847998913377523,
+    "memory_used": 0.01658344268798828,
+    "peak_memory": 0.021584510803222656
+},
+{
+    "input_params": {
+        "Seed": 484008,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006944599794223905,
+    "cpu_time": 0.006944599794223905,
+    "memory_used": 0.038430213928222656,
+    "peak_memory": 0.050713539123535156
+},
+{
+    "input_params": {
+        "Seed": 974218,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.06191970012150705,
+    "cpu_time": 0.06191970012150705,
+    "memory_used": 0.026172637939453125,
+    "peak_memory": 0.045101165771484375
+},
+{
+    "input_params": {
+        "Seed": 123321,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0065756000112742186,
+    "cpu_time": 0.0065756000112742186,
+    "memory_used": 0.02598857879638672,
+    "peak_memory": 0.03747844696044922
+},
+{
+    "input_params": {
+        "Seed": 743524,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.061487700091674924,
+    "cpu_time": 0.061487700091674924,
+    "memory_used": 0.026175498962402344,
+    "peak_memory": 0.044821739196777344
+},
+{
+    "input_params": {
+        "Seed": 975004,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.010110300034284592,
+    "cpu_time": 0.010110300034284592,
+    "memory_used": 0.03732490539550781,
+    "peak_memory": 0.04807853698730469
+},
+{
+    "input_params": {
+        "Seed": 654706,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.11482369992882013,
+    "cpu_time": 0.11482369992882013,
+    "memory_used": 0.02594757080078125,
+    "peak_memory": 0.0441131591796875
+},
+{
+    "input_params": {
+        "Seed": 610782,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.008624200010672212,
+    "cpu_time": 0.008624200010672212,
+    "memory_used": 0.03920745849609375,
+    "peak_memory": 0.049678802490234375
+},
+{
+    "input_params": {
+        "Seed": 8199,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0810255000833422,
+    "cpu_time": 0.0810255000833422,
+    "memory_used": 0.026376724243164062,
+    "peak_memory": 0.04541206359863281
+},
+{
+    "input_params": {
+        "Seed": 611122,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.012554100016131997,
+    "cpu_time": 0.012554100016131997,
+    "memory_used": 0.05427265167236328,
+    "peak_memory": 0.07297992706298828
+},
+{
+    "input_params": {
+        "Seed": 622143,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.8991499000694603,
+    "cpu_time": 1.8991499000694603,
+    "memory_used": 0.035042762756347656,
+    "peak_memory": 0.14072513580322266
+},
+{
+    "input_params": {
+        "Seed": 309916,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.011249900097027421,
+    "cpu_time": 0.011249900097027421,
+    "memory_used": 0.05520343780517578,
+    "peak_memory": 0.07355594635009766
+},
+{
+    "input_params": {
+        "Seed": 81118,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.576310500036925,
+    "cpu_time": 1.576310500036925,
+    "memory_used": 0.03493976593017578,
+    "peak_memory": 0.13274097442626953
+},
+{
+    "input_params": {
+        "Seed": 172604,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.012244899990037084,
+    "cpu_time": 0.012244899990037084,
+    "memory_used": 0.054327964782714844,
+    "peak_memory": 0.07248973846435547
+},
+{
+    "input_params": {
+        "Seed": 876632,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.9144580999854952,
+    "cpu_time": 1.9144580999854952,
+    "memory_used": 0.03508567810058594,
+    "peak_memory": 0.14853477478027344
+},
+{
+    "input_params": {
+        "Seed": 249381,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.011976700043305755,
+    "cpu_time": 0.011976700043305755,
+    "memory_used": 0.05416297912597656,
+    "peak_memory": 0.07230567932128906
+},
+{
+    "input_params": {
+        "Seed": 159587,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.9208113998174667,
+    "cpu_time": 1.9208113998174667,
+    "memory_used": 0.03548908233642578,
+    "peak_memory": 0.14426136016845703
+},
+{
+    "input_params": {
+        "Seed": 290261,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.002215899992734194,
+    "cpu_time": 0.002215899992734194,
+    "memory_used": 0.017127037048339844,
+    "peak_memory": 0.023726463317871094
+},
+{
+    "input_params": {
+        "Seed": 316539,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0024914999958127737,
+    "cpu_time": 0.0024914999958127737,
+    "memory_used": 0.016829490661621094,
+    "peak_memory": 0.023489952087402344
+},
+{
+    "input_params": {
+        "Seed": 939653,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0021112000104039907,
+    "cpu_time": 0.0021112000104039907,
+    "memory_used": 0.017172813415527344,
+    "peak_memory": 0.023772239685058594
+},
+{
+    "input_params": {
+        "Seed": 35086,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0026456001214683056,
+    "cpu_time": 0.0026456001214683056,
+    "memory_used": 0.017188072204589844,
+    "peak_memory": 0.023848533630371094
+},
+{
+    "input_params": {
+        "Seed": 82432,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0022009999956935644,
+    "cpu_time": 0.0022009999956935644,
+    "memory_used": 0.020529747009277344,
+    "peak_memory": 0.026844024658203125
+},
+{
+    "input_params": {
+        "Seed": 185490,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0030526001937687397,
+    "cpu_time": 0.0030526001937687397,
+    "memory_used": 0.01885700225830078,
+    "peak_memory": 0.025330543518066406
+},
+{
+    "input_params": {
+        "Seed": 220307,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0021286001428961754,
+    "cpu_time": 0.0021286001428961754,
+    "memory_used": 0.01999950408935547,
+    "peak_memory": 0.026312828063964844
+},
+{
+    "input_params": {
+        "Seed": 336329,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0029263999313116074,
+    "cpu_time": 0.0029263999313116074,
+    "memory_used": 0.018526077270507812,
+    "peak_memory": 0.025022506713867188
+},
+{
+    "input_params": {
+        "Seed": 601482,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006969100097194314,
+    "cpu_time": 0.006969100097194314,
+    "memory_used": 0.037631988525390625,
+    "peak_memory": 0.051319122314453125
+},
+{
+    "input_params": {
+        "Seed": 818131,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.05226500006392598,
+    "cpu_time": 0.05226500006392598,
+    "memory_used": 0.028179168701171875,
+    "peak_memory": 0.046901702880859375
+},
+{
+    "input_params": {
+        "Seed": 369082,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0069448999129235744,
+    "cpu_time": 0.0069448999129235744,
+    "memory_used": 0.02801513671875,
+    "peak_memory": 0.04095458984375
+},
+{
+    "input_params": {
+        "Seed": 475099,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.053646800108253956,
+    "cpu_time": 0.053646800108253956,
+    "memory_used": 0.027825355529785156,
+    "peak_memory": 0.046456336975097656
+},
+{
+    "input_params": {
+        "Seed": 388905,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.009449300123378634,
+    "cpu_time": 0.009449300123378634,
+    "memory_used": 0.03965473175048828,
+    "peak_memory": 0.05258655548095703
+},
+{
+    "input_params": {
+        "Seed": 921750,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.05492690019309521,
+    "cpu_time": 0.05492690019309521,
+    "memory_used": 0.02820110321044922,
+    "peak_memory": 0.04709148406982422
+},
+{
+    "input_params": {
+        "Seed": 223063,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.007164099952206016,
+    "cpu_time": 0.007164099952206016,
+    "memory_used": 0.040879249572753906,
+    "peak_memory": 0.05288887023925781
+},
+{
+    "input_params": {
+        "Seed": 744481,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.04740720009431243,
+    "cpu_time": 0.04740720009431243,
+    "memory_used": 0.027713775634765625,
+    "peak_memory": 0.045235633850097656
+},
+{
+    "input_params": {
+        "Seed": 963152,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.014675799990072846,
+    "cpu_time": 0.014675799990072846,
+    "memory_used": 0.05675315856933594,
+    "peak_memory": 0.07692527770996094
+},
+{
+    "input_params": {
+        "Seed": 537604,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.400100499857217,
+    "cpu_time": 1.400100499857217,
+    "memory_used": 0.03746509552001953,
+    "peak_memory": 0.14994525909423828
+},
+{
+    "input_params": {
+        "Seed": 321576,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.01147319981828332,
+    "cpu_time": 0.01147319981828332,
+    "memory_used": 0.05771064758300781,
+    "peak_memory": 0.0774526596069336
+},
+{
+    "input_params": {
+        "Seed": 154766,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.8763871002011001,
+    "cpu_time": 0.8763871002011001,
+    "memory_used": 0.036464691162109375,
+    "peak_memory": 0.12990188598632812
+},
+{
+    "input_params": {
+        "Seed": 906825,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.012031099991872907,
+    "cpu_time": 0.012031099991872907,
+    "memory_used": 0.05661296844482422,
+    "peak_memory": 0.07654094696044922
+},
+{
+    "input_params": {
+        "Seed": 316827,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.4343642999883741,
+    "cpu_time": 1.4343642999883741,
+    "memory_used": 0.037303924560546875,
+    "peak_memory": 0.15047073364257812
+},
+{
+    "input_params": {
+        "Seed": 784544,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.011881700018420815,
+    "cpu_time": 0.011881700018420815,
+    "memory_used": 0.057765960693359375,
+    "peak_memory": 0.077392578125
+},
+{
+    "input_params": {
+        "Seed": 25491,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 30,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 1.0524037000723183,
+    "cpu_time": 1.0524037000723183,
+    "memory_used": 0.03701972961425781,
+    "peak_memory": 0.1408557891845703
+},
+{
+    "input_params": {
+        "Seed": 171301,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.004481700016185641,
+    "cpu_time": 0.004481700016185641,
+    "memory_used": 0.027838706970214844,
+    "peak_memory": 0.033598899841308594
+},
+{
+    "input_params": {
+        "Seed": 739299,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.004640600178390741,
+    "cpu_time": 0.004640600178390741,
+    "memory_used": 0.027533531188964844,
+    "peak_memory": 0.033339500427246094
+},
+{
+    "input_params": {
+        "Seed": 215442,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.004001900088042021,
+    "cpu_time": 0.004001900088042021,
+    "memory_used": 0.027464866638183594,
+    "peak_memory": 0.033225059509277344
+},
+{
+    "input_params": {
+        "Seed": 629279,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.004833200015127659,
+    "cpu_time": 0.004833200015127659,
+    "memory_used": 0.027373313903808594,
+    "peak_memory": 0.033186912536621094
+},
+{
+    "input_params": {
+        "Seed": 396822,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.00406700000166893,
+    "cpu_time": 0.00406700000166893,
+    "memory_used": 0.031250953674316406,
+    "peak_memory": 0.03672504425048828
+},
+{
+    "input_params": {
+        "Seed": 575146,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.00509260012768209,
+    "cpu_time": 0.00509260012768209,
+    "memory_used": 0.028021812438964844,
+    "peak_memory": 0.033596038818359375
+},
+{
+    "input_params": {
+        "Seed": 326351,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.004074400058016181,
+    "cpu_time": 0.004074400058016181,
+    "memory_used": 0.031762123107910156,
+    "peak_memory": 0.03723621368408203
+},
+{
+    "input_params": {
+        "Seed": 916071,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.005369100021198392,
+    "cpu_time": 0.005369100021198392,
+    "memory_used": 0.029236793518066406,
+    "peak_memory": 0.03482627868652344
+},
+{
+    "input_params": {
+        "Seed": 993649,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.012546899961307645,
+    "cpu_time": 0.012546899961307645,
+    "memory_used": 0.05605125427246094,
+    "peak_memory": 0.07315635681152344
+},
+{
+    "input_params": {
+        "Seed": 672305,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.12807279988192022,
+    "cpu_time": 0.12807279988192022,
+    "memory_used": 0.041843414306640625,
+    "peak_memory": 0.06939315795898438
+},
+{
+    "input_params": {
+        "Seed": 747169,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.014747799839824438,
+    "cpu_time": 0.014747799839824438,
+    "memory_used": 0.042654991149902344,
+    "peak_memory": 0.061217308044433594
+},
+{
+    "input_params": {
+        "Seed": 608900,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.14107290003448725,
+    "cpu_time": 0.14107290003448725,
+    "memory_used": 0.042057037353515625,
+    "peak_memory": 0.07011795043945312
+},
+{
+    "input_params": {
+        "Seed": 281267,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.01338350004516542,
+    "cpu_time": 0.01338350004516542,
+    "memory_used": 0.06289196014404297,
+    "peak_memory": 0.0810232162475586
+},
+{
+    "input_params": {
+        "Seed": 3398,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.13687959988601506,
+    "cpu_time": 0.13687959988601506,
+    "memory_used": 0.04223060607910156,
+    "peak_memory": 0.07038307189941406
+},
+{
+    "input_params": {
+        "Seed": 511700,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.013348300009965897,
+    "cpu_time": 0.013348300009965897,
+    "memory_used": 0.06404304504394531,
+    "peak_memory": 0.08214473724365234
+},
+{
+    "input_params": {
+        "Seed": 110199,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.1256163998041302,
+    "cpu_time": 0.1256163998041302,
+    "memory_used": 0.04190254211425781,
+    "peak_memory": 0.06957435607910156
+},
+{
+    "input_params": {
+        "Seed": 865268,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.021802500123158097,
+    "cpu_time": 0.021802500123158097,
+    "memory_used": 0.08010578155517578,
+    "peak_memory": 0.11401081085205078
+},
+{
+    "input_params": {
+        "Seed": 236755,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 4.63714009989053,
+    "cpu_time": 4.63714009989053,
+    "memory_used": 0.0534820556640625,
+    "peak_memory": 0.18605804443359375
+},
+{
+    "input_params": {
+        "Seed": 937723,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.027423799969255924,
+    "cpu_time": 0.027423799969255924,
+    "memory_used": 0.08103466033935547,
+    "peak_memory": 0.11493968963623047
+},
+{
+    "input_params": {
+        "Seed": 772637,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 4.268943500006571,
+    "cpu_time": 4.268943500006571,
+    "memory_used": 0.052735328674316406,
+    "peak_memory": 0.1832437515258789
+},
+{
+    "input_params": {
+        "Seed": 431497,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.020581299904733896,
+    "cpu_time": 0.020581299904733896,
+    "memory_used": 0.07986164093017578,
+    "peak_memory": 0.11368274688720703
+},
+{
+    "input_params": {
+        "Seed": 277205,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 4.607788700144738,
+    "cpu_time": 4.607788700144738,
+    "memory_used": 0.053730010986328125,
+    "peak_memory": 0.18648147583007812
+},
+{
+    "input_params": {
+        "Seed": 337962,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 0.021094300085678697,
+    "cpu_time": 0.021094300085678697,
+    "memory_used": 0.07981586456298828,
+    "peak_memory": 0.11363697052001953
+},
+{
+    "input_params": {
+        "Seed": 605499,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 3,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2
+        ]
+    },
+    "elapsed_time": 4.484582599950954,
+    "cpu_time": 4.484582599950954,
+    "memory_used": 0.05361175537109375,
+    "peak_memory": 0.18637847900390625
+},
+{
+    "input_params": {
+        "Seed": 344765,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0044055001344531775,
+    "cpu_time": 0.0044055001344531775,
+    "memory_used": 0.029097557067871094,
+    "peak_memory": 0.035780906677246094
+},
+{
+    "input_params": {
+        "Seed": 934225,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.005451199831441045,
+    "cpu_time": 0.005451199831441045,
+    "memory_used": 0.029837608337402344,
+    "peak_memory": 0.037070274353027344
+},
+{
+    "input_params": {
+        "Seed": 345269,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004649400012567639,
+    "cpu_time": 0.004649400012567639,
+    "memory_used": 0.029578208923339844,
+    "peak_memory": 0.036261558532714844
+},
+{
+    "input_params": {
+        "Seed": 277162,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0050484000239521265,
+    "cpu_time": 0.0050484000239521265,
+    "memory_used": 0.028609275817871094,
+    "peak_memory": 0.035353660583496094
+},
+{
+    "input_params": {
+        "Seed": 825527,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004572399891912937,
+    "cpu_time": 0.004572399891912937,
+    "memory_used": 0.03441905975341797,
+    "peak_memory": 0.040762901306152344
+},
+{
+    "input_params": {
+        "Seed": 410822,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006267700111493468,
+    "cpu_time": 0.006267700111493468,
+    "memory_used": 0.031599998474121094,
+    "peak_memory": 0.03849315643310547
+},
+{
+    "input_params": {
+        "Seed": 254708,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0043709001038223505,
+    "cpu_time": 0.0043709001038223505,
+    "memory_used": 0.033438682556152344,
+    "peak_memory": 0.03978252410888672
+},
+{
+    "input_params": {
+        "Seed": 809433,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006149700144305825,
+    "cpu_time": 0.006149700144305825,
+    "memory_used": 0.03136157989501953,
+    "peak_memory": 0.038254737854003906
+},
+{
+    "input_params": {
+        "Seed": 723099,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.014663399895653129,
+    "cpu_time": 0.014663399895653129,
+    "memory_used": 0.06843757629394531,
+    "peak_memory": 0.08783149719238281
+},
+{
+    "input_params": {
+        "Seed": 978749,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.12623420008458197,
+    "cpu_time": 0.12623420008458197,
+    "memory_used": 0.04448699951171875,
+    "peak_memory": 0.07195281982421875
+},
+{
+    "input_params": {
+        "Seed": 30921,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.014593899948522449,
+    "cpu_time": 0.014593899948522449,
+    "memory_used": 0.045653343200683594,
+    "peak_memory": 0.0655202865600586
+},
+{
+    "input_params": {
+        "Seed": 835247,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.13316710013896227,
+    "cpu_time": 0.13316710013896227,
+    "memory_used": 0.045104026794433594,
+    "peak_memory": 0.07309627532958984
+},
+{
+    "input_params": {
+        "Seed": 300340,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.013912800000980496,
+    "cpu_time": 0.013912800000980496,
+    "memory_used": 0.06852912902832031,
+    "peak_memory": 0.08739280700683594
+},
+{
+    "input_params": {
+        "Seed": 606338,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.13999630021862686,
+    "cpu_time": 0.13999630021862686,
+    "memory_used": 0.045243263244628906,
+    "peak_memory": 0.07318973541259766
+},
+{
+    "input_params": {
+        "Seed": 484737,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.014659299980849028,
+    "cpu_time": 0.014659299980849028,
+    "memory_used": 0.07132625579833984,
+    "peak_memory": 0.09012985229492188
+},
+{
+    "input_params": {
+        "Seed": 718804,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.12657140009105206,
+    "cpu_time": 0.12657140009105206,
+    "memory_used": 0.04481983184814453,
+    "peak_memory": 0.07385730743408203
+},
+{
+    "input_params": {
+        "Seed": 870060,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.024113399907946587,
+    "cpu_time": 0.024113399907946587,
+    "memory_used": 0.09364795684814453,
+    "peak_memory": 0.1287088394165039
+},
+{
+    "input_params": {
+        "Seed": 550559,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.463090999983251,
+    "cpu_time": 3.463090999983251,
+    "memory_used": 0.055919647216796875,
+    "peak_memory": 0.18120956420898438
+},
+{
+    "input_params": {
+        "Seed": 831847,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.023737600073218346,
+    "cpu_time": 0.023737600073218346,
+    "memory_used": 0.09298324584960938,
+    "peak_memory": 0.12808609008789062
+},
+{
+    "input_params": {
+        "Seed": 626573,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 4.6320554001722485,
+    "cpu_time": 4.6320554001722485,
+    "memory_used": 0.0568389892578125,
+    "peak_memory": 0.1927490234375
+},
+{
+    "input_params": {
+        "Seed": 949255,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.09848390007391572,
+    "cpu_time": 0.09848390007391572,
+    "memory_used": 0.0942678451538086,
+    "peak_memory": 0.12918758392333984
+},
+{
+    "input_params": {
+        "Seed": 764113,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 4.712506099836901,
+    "cpu_time": 4.712506099836901,
+    "memory_used": 0.05696392059326172,
+    "peak_memory": 0.19143962860107422
+},
+{
+    "input_params": {
+        "Seed": 678023,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.02482470008544624,
+    "cpu_time": 0.02482470008544624,
+    "memory_used": 0.09356212615966797,
+    "peak_memory": 0.1284332275390625
+},
+{
+    "input_params": {
+        "Seed": 576282,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 10,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.6402760001365095,
+    "cpu_time": 3.6402760001365095,
+    "memory_used": 0.05633354187011719,
+    "peak_memory": 0.1867198944091797
+},
+{
+    "input_params": {
+        "Seed": 568349,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004502700176090002,
+    "cpu_time": 0.004502700176090002,
+    "memory_used": 0.031516075134277344,
+    "peak_memory": 0.040152549743652344
+},
+{
+    "input_params": {
+        "Seed": 272320,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.005698899971321225,
+    "cpu_time": 0.005698899971321225,
+    "memory_used": 0.032248497009277344,
+    "peak_memory": 0.040946006774902344
+},
+{
+    "input_params": {
+        "Seed": 843306,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004584399983286858,
+    "cpu_time": 0.004584399983286858,
+    "memory_used": 0.031500816345214844,
+    "peak_memory": 0.040137290954589844
+},
+{
+    "input_params": {
+        "Seed": 308107,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.005584999918937683,
+    "cpu_time": 0.005584999918937683,
+    "memory_used": 0.031516075134277344,
+    "peak_memory": 0.040213584899902344
+},
+{
+    "input_params": {
+        "Seed": 440491,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004779200069606304,
+    "cpu_time": 0.004779200069606304,
+    "memory_used": 0.03642463684082031,
+    "peak_memory": 0.04472160339355469
+},
+{
+    "input_params": {
+        "Seed": 321281,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.006889099953696132,
+    "cpu_time": 0.006889099953696132,
+    "memory_used": 0.03459358215332031,
+    "peak_memory": 0.04300498962402344
+},
+{
+    "input_params": {
+        "Seed": 588918,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.004382899962365627,
+    "cpu_time": 0.004382899962365627,
+    "memory_used": 0.03559684753417969,
+    "peak_memory": 0.04389381408691406
+},
+{
+    "input_params": {
+        "Seed": 663118,
+        "Minimum Winning Path Count": 1,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0062726999167352915,
+    "cpu_time": 0.0062726999167352915,
+    "memory_used": 0.03324604034423828,
+    "peak_memory": 0.041657447814941406
+},
+{
+    "input_params": {
+        "Seed": 1288,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.014907799893990159,
+    "cpu_time": 0.014907799893990159,
+    "memory_used": 0.07195091247558594,
+    "peak_memory": 0.09329032897949219
+},
+{
+    "input_params": {
+        "Seed": 512973,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.1358411000110209,
+    "cpu_time": 0.1358411000110209,
+    "memory_used": 0.04786491394042969,
+    "peak_memory": 0.07754802703857422
+},
+{
+    "input_params": {
+        "Seed": 418803,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.01587959984317422,
+    "cpu_time": 0.01587959984317422,
+    "memory_used": 0.047896385192871094,
+    "peak_memory": 0.06923580169677734
+},
+{
+    "input_params": {
+        "Seed": 998049,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.134667000034824,
+    "cpu_time": 0.134667000034824,
+    "memory_used": 0.04806041717529297,
+    "peak_memory": 0.07612133026123047
+},
+{
+    "input_params": {
+        "Seed": 52976,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.015251400182023644,
+    "cpu_time": 0.015251400182023644,
+    "memory_used": 0.07036972045898438,
+    "peak_memory": 0.09087371826171875
+},
+{
+    "input_params": {
+        "Seed": 600739,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.13578260014764965,
+    "cpu_time": 0.13578260014764965,
+    "memory_used": 0.048371315002441406,
+    "peak_memory": 0.0764017105102539
+},
+{
+    "input_params": {
+        "Seed": 928834,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.01537109981290996,
+    "cpu_time": 0.01537109981290996,
+    "memory_used": 0.072113037109375,
+    "peak_memory": 0.09304428100585938
+},
+{
+    "input_params": {
+        "Seed": 212797,
+        "Minimum Winning Path Count": 3,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.12724340008571744,
+    "cpu_time": 0.12724340008571744,
+    "memory_used": 0.04804706573486328,
+    "peak_memory": 0.07596302032470703
+},
+{
+    "input_params": {
+        "Seed": 509024,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.02639769995585084,
+    "cpu_time": 0.02639769995585084,
+    "memory_used": 0.09481334686279297,
+    "peak_memory": 0.13136577606201172
+},
+{
+    "input_params": {
+        "Seed": 399276,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.2917420000303537,
+    "cpu_time": 3.2917420000303537,
+    "memory_used": 0.05930900573730469,
+    "peak_memory": 0.19046592712402344
+},
+{
+    "input_params": {
+        "Seed": 49696,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.026096299989148974,
+    "cpu_time": 0.026096299989148974,
+    "memory_used": 0.09676933288574219,
+    "peak_memory": 0.1333751678466797
+},
+{
+    "input_params": {
+        "Seed": 911729,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 1,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.503097799839452,
+    "cpu_time": 3.503097799839452,
+    "memory_used": 0.059554100036621094,
+    "peak_memory": 0.1907339096069336
+},
+{
+    "input_params": {
+        "Seed": 164626,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.026527600130066276,
+    "cpu_time": 0.026527600130066276,
+    "memory_used": 0.09772968292236328,
+    "peak_memory": 0.13399600982666016
+},
+{
+    "input_params": {
+        "Seed": 83060,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 1,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.942932700039819,
+    "cpu_time": 3.942932700039819,
+    "memory_used": 0.060516357421875,
+    "peak_memory": 0.19646453857421875
+},
+{
+    "input_params": {
+        "Seed": 839363,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 1,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 0.0269208000972867,
+    "cpu_time": 0.0269208000972867,
+    "memory_used": 0.09620857238769531,
+    "peak_memory": 0.1324748992919922
+},
+{
+    "input_params": {
+        "Seed": 958692,
+        "Minimum Winning Path Count": 5,
+        "Room Count": 50,
+        "Skill Count": 18,
+        "Sliding Count": 3,
+        "Neighbor Distance": 3,
+        "Backward Step Count": 5,
+        "Required Skills to Win": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "elapsed_time": 3.363918700022623,
+    "cpu_time": 3.363918700022623,
+    "memory_used": 0.05997276306152344,
+    "peak_memory": 0.19255638122558594
+},
+]

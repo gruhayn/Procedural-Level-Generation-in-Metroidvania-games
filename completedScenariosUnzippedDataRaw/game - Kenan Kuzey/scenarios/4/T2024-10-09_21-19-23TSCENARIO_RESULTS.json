@@ -1,0 +1,381 @@
+{
+    "email": "kuzey.kenan@live.com",
+    "name": "kenan",
+    "surname": "aktas",
+    "elapsedTime": 411.9282913208008,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728497557.9531467
+        },
+        "2": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728497565.9034355
+        },
+        "3": {
+            "action": "N4",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728497569.593059
+        },
+        "4": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497574.2122355
+        },
+        "5": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728497579.9032843
+        },
+        "6": {
+            "action": "gain 5",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497589.457846
+        },
+        "7": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497589.6030242
+        },
+        "8": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497594.6448257
+        },
+        "9": {
+            "action": "gain 5",
+            "isOkayAction": true,
+            "message": "You gained 5 ability.",
+            "startTime": 1728497599.2829952
+        },
+        "10": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497603.1342568
+        },
+        "11": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728497608.368068
+        },
+        "12": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497613.9136217
+        },
+        "13": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497621.8428628
+        },
+        "14": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497634.3329492
+        },
+        "15": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497637.9630792
+        },
+        "16": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497644.942972
+        },
+        "17": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497648.903324
+        },
+        "18": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497654.0726326
+        },
+        "19": {
+            "action": "gaiN 4",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728497660.7273076
+        },
+        "20": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728497673.6035254
+        },
+        "21": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497680.6027408
+        },
+        "22": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497698.7527995
+        },
+        "23": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497704.6026342
+        },
+        "24": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728497718.2426739
+        },
+        "25": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497724.5727587
+        },
+        "26": {
+            "action": "GA\u0130N 4",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728497728.7227862
+        },
+        "27": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497735.8076754
+        },
+        "28": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497735.9025729
+        },
+        "29": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497737.1824133
+        },
+        "30": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497737.582825
+        },
+        "31": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497738.5123374
+        },
+        "32": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497748.592762
+        },
+        "33": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497759.5336738
+        },
+        "34": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497768.5177104
+        },
+        "35": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497773.376466
+        },
+        "36": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497780.0923784
+        },
+        "37": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497785.327498
+        },
+        "38": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728497803.782337
+        },
+        "39": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497807.7441502
+        },
+        "40": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497814.0924063
+        },
+        "41": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728497821.9841871
+        },
+        "42": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497830.9326305
+        },
+        "43": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497845.0400631
+        },
+        "44": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497850.4737782
+        },
+        "45": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497857.557652
+        },
+        "46": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497864.822171
+        },
+        "47": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497866.9620633
+        },
+        "48": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497867.9820576
+        },
+        "49": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497868.9620862
+        },
+        "50": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497869.5519073
+        },
+        "51": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497870.162384
+        },
+        "52": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497879.1622097
+        },
+        "53": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497879.7218125
+        },
+        "54": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497880.802287
+        },
+        "55": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497881.5421693
+        },
+        "56": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728497883.0020173
+        },
+        "57": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497901.2117138
+        },
+        "58": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497909.8535817
+        },
+        "59": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497914.8518136
+        },
+        "60": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497939.8437066
+        },
+        "61": {
+            "action": "gain 4",
+            "isOkayAction": true,
+            "message": "You gained 4 ability.",
+            "startTime": 1728497950.4935129
+        },
+        "62": {
+            "action": "go N7",
+            "isOkayAction": true,
+            "message": "You went to N7",
+            "startTime": 1728497963.4749131
+        }
+    }
+}

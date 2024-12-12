@@ -1,0 +1,99 @@
+{
+    "email": "dostumaliyev@gmail.com",
+    "name": "metin",
+    "surname": "dostumaliyev",
+    "elapsedTime": 381.0255217552185,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496131.8434148
+        },
+        "2": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728496155.504975
+        },
+        "3": {
+            "action": "2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728496169.6367624
+        },
+        "4": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496187.7888
+        },
+        "5": {
+            "action": "gain 4",
+            "isOkayAction": true,
+            "message": "You gained 4 ability.",
+            "startTime": 1728496209.196785
+        },
+        "6": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728496308.386053
+        },
+        "7": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728496325.725704
+        },
+        "8": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728496340.748782
+        },
+        "9": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728496356.5223236
+        },
+        "10": {
+            "action": "gain 5",
+            "isOkayAction": true,
+            "message": "You gained 5 ability.",
+            "startTime": 1728496403.6270494
+        },
+        "11": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728496415.6227787
+        },
+        "12": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728496437.1247292
+        },
+        "13": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728496448.518501
+        },
+        "14": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728496479.2608817
+        },
+        "15": {
+            "action": "go N7",
+            "isOkayAction": true,
+            "message": "You went to N7",
+            "startTime": 1728496490.5262432
+        }
+    }
+}

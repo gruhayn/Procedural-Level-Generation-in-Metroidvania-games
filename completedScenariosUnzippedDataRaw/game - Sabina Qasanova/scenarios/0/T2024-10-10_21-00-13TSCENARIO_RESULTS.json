@@ -1,0 +1,33 @@
+{
+    "email": "sabina.hesenova.001@gmail.com",
+    "name": "Sabina",
+    "surname": "Hasanova",
+    "elapsedTime": 511.6857795715332,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728582747.750298
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728582778.8255262
+        },
+        "3": {
+            "action": "go to N3",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728582802.1218207
+        },
+        "4": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583213.2352755
+        }
+    }
+}

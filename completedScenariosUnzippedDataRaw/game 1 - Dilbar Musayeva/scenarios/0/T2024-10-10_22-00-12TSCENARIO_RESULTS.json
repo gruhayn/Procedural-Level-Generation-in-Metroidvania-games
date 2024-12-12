@@ -1,0 +1,45 @@
+{
+    "email": "musayevadilbar142@gmail.com",
+    "name": "Dilbar",
+    "surname": "Musayeva",
+    "elapsedTime": 495.0652825832367,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582791.5446746
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582978.0482187
+        },
+        "3": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728582998.160427
+        },
+        "4": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728583024.2434087
+        },
+        "5": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728583061.5815454
+        },
+        "6": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583212.7236974
+        }
+    }
+}

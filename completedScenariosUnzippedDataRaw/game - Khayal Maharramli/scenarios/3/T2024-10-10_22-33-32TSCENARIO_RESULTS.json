@@ -1,0 +1,21 @@
+{
+    "email": "maharramlikhayal@gmail.com",
+    "name": "Khayal",
+    "surname": "Maharramli",
+    "elapsedTime": 50.3201961517334,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728585168.49507
+        },
+        "2": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728585212.506711
+        }
+    }
+}

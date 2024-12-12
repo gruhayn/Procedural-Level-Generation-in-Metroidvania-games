@@ -1,0 +1,27 @@
+{
+    "email": "cingizmustafazade2016@gmail.com",
+    "name": "Cengiz",
+    "surname": "Mustafazade",
+    "elapsedTime": 161.69398164749146,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728494784.081995
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728494836.4560635
+        },
+        "3": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728494851.7043133
+        }
+    }
+}

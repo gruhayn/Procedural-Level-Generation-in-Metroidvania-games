@@ -1,0 +1,69 @@
+{
+    "email": "dostumaliyev@gmail.com",
+    "name": "Metin",
+    "surname": "Dostumaliyev",
+    "elapsedTime": 164.49261474609375,
+    "historyOfActions": {
+        "isWin": false,
+        "1": {
+            "action": "Go N5",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728495923.8879197
+        },
+        "2": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728495929.314976
+        },
+        "3": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728495930.5611863
+        },
+        "4": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728495935.5363717
+        },
+        "5": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728495952.0395508
+        },
+        "6": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728495960.2864394
+        },
+        "7": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496021.5601192
+        },
+        "8": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728496036.9806368
+        },
+        "9": {
+            "action": "go N5",
+            "isOkayAction": false,
+            "message": "You can not go to N5",
+            "startTime": 1728496050.8292024
+        },
+        "10": {
+            "action": "quit",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728496068.397456
+        }
+    }
+}

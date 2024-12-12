@@ -1,0 +1,147 @@
+{
+    "email": "kuzey.kenan@live.com",
+    "name": "kenan",
+    "surname": "aktas",
+    "elapsedTime": 190.88424515724182,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728496890.9017568
+        },
+        "2": {
+            "action": "gain 6",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496907.6358619
+        },
+        "3": {
+            "action": "gain 5",
+            "isOkayAction": true,
+            "message": "You gained 5 ability.",
+            "startTime": 1728496923.5912423
+        },
+        "4": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496934.0459504
+        },
+        "5": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728496945.7960994
+        },
+        "6": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496959.007773
+        },
+        "7": {
+            "action": "gain 3",
+            "isOkayAction": true,
+            "message": "You gained 3 ability.",
+            "startTime": 1728496964.9890676
+        },
+        "8": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728496974.1156263
+        },
+        "9": {
+            "action": "gain 2",
+            "isOkayAction": true,
+            "message": "You gained 2 ability.",
+            "startTime": 1728496981.4872828
+        },
+        "10": {
+            "action": "go N9",
+            "isOkayAction": true,
+            "message": "You went to N9",
+            "startTime": 1728496989.1405125
+        },
+        "11": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728496995.3952599
+        },
+        "12": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497004.0460043
+        },
+        "13": {
+            "action": "gain 2",
+            "isOkayAction": false,
+            "message": "You already have this.",
+            "startTime": 1728497007.705627
+        },
+        "14": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728497016.3090909
+        },
+        "15": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728497020.6753552
+        },
+        "16": {
+            "action": "gain 4",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497025.0974004
+        },
+        "17": {
+            "action": "go N5",
+            "isOkayAction": true,
+            "message": "You went to N5",
+            "startTime": 1728497032.6052282
+        },
+        "18": {
+            "action": "gain 4",
+            "isOkayAction": true,
+            "message": "You gained 4 ability.",
+            "startTime": 1728497038.0093095
+        },
+        "19": {
+            "action": "go N8",
+            "isOkayAction": true,
+            "message": "You went to N8",
+            "startTime": 1728497045.0253713
+        },
+        "20": {
+            "action": "go N6",
+            "isOkayAction": true,
+            "message": "You went to N6",
+            "startTime": 1728497050.8552554
+        },
+        "21": {
+            "action": "gain 6",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728497058.575211
+        },
+        "22": {
+            "action": "go N4",
+            "isOkayAction": true,
+            "message": "You went to N4",
+            "startTime": 1728497065.1251853
+        },
+        "23": {
+            "action": "go N10",
+            "isOkayAction": true,
+            "message": "You went to N10",
+            "startTime": 1728497073.040375
+        }
+    }
+}

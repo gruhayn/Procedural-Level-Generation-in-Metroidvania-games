@@ -1,0 +1,291 @@
+{
+    "email": "maharramlikhayal@gmail.com",
+    "name": "Khayal",
+    "surname": "Maharramli",
+    "elapsedTime": 633.6143729686737,
+    "historyOfActions": {
+        "isWin": true,
+        "1": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582807.2499661
+        },
+        "2": {
+            "action": "gain 2",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582856.6807487
+        },
+        "3": {
+            "action": "",
+            "isOkayAction": false,
+            "message": "Unexpected Error: list index out of range",
+            "startTime": 1728582857.2793987
+        },
+        "4": {
+            "action": "gain 3",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582859.6741214
+        },
+        "5": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582861.852743
+        },
+        "6": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728582864.155069
+        },
+        "7": {
+            "action": "N1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728582931.987854
+        },
+        "8": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728582933.585102
+        },
+        "9": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728582934.941079
+        },
+        "10": {
+            "action": "N1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583004.2467978
+        },
+        "11": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583005.8253827
+        },
+        "12": {
+            "action": "n2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583013.5278487
+        },
+        "13": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583015.1496468
+        },
+        "14": {
+            "action": "0",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583059.55434
+        },
+        "15": {
+            "action": "n2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583061.1397831
+        },
+        "16": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583064.0402613
+        },
+        "17": {
+            "action": "Go to N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583072.6380603
+        },
+        "18": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583077.072546
+        },
+        "19": {
+            "action": "go to N2",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728583086.1921153
+        },
+        "20": {
+            "action": "go to N2",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728583089.950188
+        },
+        "21": {
+            "action": "go N1",
+            "isOkayAction": false,
+            "message": "You can not go to N1",
+            "startTime": 1728583184.3844302
+        },
+        "22": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "This ability is not available in this room.",
+            "startTime": 1728583190.0879645
+        },
+        "23": {
+            "action": "Go N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583193.8220227
+        },
+        "24": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583201.991555
+        },
+        "25": {
+            "action": "go N2",
+            "isOkayAction": true,
+            "message": "You went to N2",
+            "startTime": 1728583204.9167166
+        },
+        "26": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583211.4242363
+        },
+        "27": {
+            "action": "0",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583218.4926353
+        },
+        "28": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583223.2370362
+        },
+        "29": {
+            "action": "0",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583226.7685175
+        },
+        "30": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583228.263171
+        },
+        "31": {
+            "action": "1",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583229.1922684
+        },
+        "32": {
+            "action": "0",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583230.8069851
+        },
+        "33": {
+            "action": "gain 1",
+            "isOkayAction": true,
+            "message": "You gained 1 ability.",
+            "startTime": 1728583240.00847
+        },
+        "34": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "You already have this.",
+            "startTime": 1728583251.046936
+        },
+        "35": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583254.4693108
+        },
+        "36": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583260.2970269
+        },
+        "37": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583265.4897487
+        },
+        "38": {
+            "action": "gain 1",
+            "isOkayAction": false,
+            "message": "You already have this.",
+            "startTime": 1728583276.1768913
+        },
+        "39": {
+            "action": "N2",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583281.1832204
+        },
+        "40": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583285.9490612
+        },
+        "41": {
+            "action": "go to N3",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728583325.806684
+        },
+        "42": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583329.9935937
+        },
+        "43": {
+            "action": "go to N3",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728583334.0305283
+        },
+        "44": {
+            "action": "go toN3",
+            "isOkayAction": false,
+            "message": "You can not go to toN3",
+            "startTime": 1728583338.967951
+        },
+        "45": {
+            "action": "go to N3",
+            "isOkayAction": false,
+            "message": "You can not go to to",
+            "startTime": 1728583348.5702999
+        },
+        "46": {
+            "action": "N3",
+            "isOkayAction": false,
+            "message": null,
+            "startTime": 1728583351.446896
+        },
+        "47": {
+            "action": "go N3",
+            "isOkayAction": true,
+            "message": "You went to N3",
+            "startTime": 1728583402.275497
+        }
+    }
+}
